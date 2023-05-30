@@ -331,10 +331,52 @@
   }
 
   @media (max-width: 60em) {
+    .about {
+      width: 30em;
+    }
+
+    .candid img {
+      display: none;
+    }
+
+    .homepage2 {
+      width: 30em;
+    }
+
+    .homepage2 img {
+      display: none;
+    }
+
+    .header1{
+      line-height: 1;
+    }
+
+    .NavBar-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .NavBar-container a:first-child {
+      display: none;
+    }
+
     .home {
       display: grid;
       grid-template-columns: 1fr;
       padding-top: 2em;
+      padding-left: 0;
+    }
+
+    .about{
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    .subtitle {
+      display: flex;
+      justify-content: center;
+      padding: 0;
     }
 
     .headshot {
@@ -344,7 +386,7 @@
     }
 
     .headshot img {
-      width: 22em;
+      width: 15em;
       margin-left: 0;
       border: 1px solid rgb(201, 201, 201);
       border-radius: 0.5em;
