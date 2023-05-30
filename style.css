@@ -280,6 +280,12 @@
 
   .email {
     float: right;
+    color:#748ffc;
+    font-size: 12pt;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
   }
 
   .projectText {
