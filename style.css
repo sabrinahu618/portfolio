@@ -1,5 +1,14 @@
 /* your css here */
+/* 
+body{
+  font-family:'Poppins', Helvetica, sans-serif;
+} */
 
+.copyright {
+  float: left;
+  padding-left: 1em;
+  color:#6c6c6c;
+}
 .portfolio {
     padding: 1em;
     padding-left:3em;
