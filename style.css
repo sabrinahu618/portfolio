@@ -369,6 +369,11 @@ body{
   transition: visibility 0s, opacity 0.1 linear;
 }
 
+.tiny {
+  color:#828282 !important;
+  font-size: 10pt !important;
+}
+
 
 /* Hover on Parent Container */
 /* .content_img:hover{

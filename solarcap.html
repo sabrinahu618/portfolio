@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="chattogo.css">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Solar Cap</title>
+</head>
+
+<body>
+	<nav class="NavBar-container">
+		<a class="navstyle aclass" href="index.html"> SYH </a> &nbsp;
+		<a class="aclass" href="index.html"> Home </a> &nbsp;
+		<a class="aclass" href="projects.html"> Projects </a> &nbsp;
+		<a class="aclass"
+			href="https://b349e5bb-a73d-42f4-84b4-a63bd9c41027.filesusr.com/ugd/4d9c9a_7e793b37c88b4af694e41df89e8a271a.pdf"
+			target="_blank"> Resume </a> &nbsp;
+	</nav>
+	<div class="page">
+		<div>
+			<h1 class="chattitle">Solar Cap</h1>
+			<p class="caption">Engineered a solar-powered cap compatible with drink cans and water bottles to purify water in minutes and charge electronic devices in response to Florida hurricanes.</p>
+			<div class="category">
+				<div class="categories">Engineering Design</div>
+				<div class="categories">Prototyping</div>
+				<div class="categories">Testing</div>
+                <div class="categories">Personal Project</div>
+			</div>
+
+		</div>
+
+		<div class="facts">
+			<div><b>My Role:</b> Concept generation, Prototyping, Testing</div>
+			<div><b>Duration:</b> Jun 2019 - May 2020 </div>
+            <div><b>Tools:</b> Arduino, Soldering</div>
+			<div><b>Resources:</b> National High Magnetic Field Laboratory and Researchers</div>
+		</div>
+
+		<div>
+			<h2>Purpose</h2>
+			<p>
+                Over a billion people around the world lack access to safe drinking water. Tap water and electricity are compromised after natural disasters. Billions of plastic bottles are purchased a year and over half ends up in oceans or landfills. My project aims to clean water and charge devices in a sustainable, portable, and simple fashion. 
+            </p>
+
+			<h2>Proposed Solution</h2>
+			<p>
+                UVC light can kill pathogens by forming thymine dimers in the DNA. My goal is to utilize a UVC LED (278 nm), situated inside a water bottle cap, to purify water. 
+            </p>
+            <b>Engineering Goals:</b>
+            <ul>
+                <li>Solar-powered — helpful during times of limited or no electricity</li>
+                <li>Battery storage — water purification can still work when not in the sun</li>
+                <li>Automatic power-off — turns UVC light off after water is sterilized</li>
+                <li>Charge devices — helpful during emergency situations</li>
+                <li>Pair with drink cans — cans are found in abundance everywhere</li>
+            </ul>
+
+            <h2>Design Execution</h2>
+            <b>Solar-power feature:</b>
+            <ol>
+                <li>
+                    Solar module connects to solar lithium-ion charger. 
+                </li>
+                <li>
+                    The solar panel can efficiently charge the LiPo battery.
+                </li>
+                <li>
+                    The step-up boost module draws power from the battery to the Arduino circuit.
+                </li>
+            </ol>
+            <img class="center" src="solarcapimg/arduino.png" width="700">
+            <p>The purpose of this board is to power on the UVC LED with the press of a button and automatically power off the UVC LED after the programmed time.</p>
+
+            <h2>Prototype</h2>
+            <img class="center" src="solarcapimg/prototype.png" width="900">
+
+            <h2>Testing</h2>
+            <p>
+                The UVC LED was tested on Wakulla Springs water. The water was poured into five equal-sized aluminum cans and each can was exposed to the UVC LED at different durations varying by one minute. The reduction in microbial colonies is displayed.
+            </p>
+            <img class="center" src="solarcapimg/platetest.png" width="100%">
+			
+            <h2>Conclusion</h2>
+            <ol>
+                <li>
+                    The project accomplishes reducing waste and recycling water with renewable energy.
+                </li>
+                <li>
+                    The water purification system was successful in eradicating pathogens in minutes.
+                </li>
+                <li>
+                    The UVC light turns on with the simple press of a button and automatically turns off with the programmed time.
+                </li>
+                <li>
+                    The system successfully draws power from solar, incorporates an automatic timer, and contains a storage unit.
+                </li>
+                <li>
+                    A water filter was built to pair with the UVC LED.
+                </li>
+                <li>
+                    The cap can charge electronics and accommodate drink cans.
+                </li>
+                <li>
+                    The project is cost-effective, portable, and can be used by any individual.
+                </li>
+            </ol>
+
+			<h2>Discussion</h2>
+			<p>
+				The solar power feature posed the biggest challenge to the project. The solar panel was not stable enough to provide consistent power to the Arduino, causing the Arduino to rapidly turn on and off from drawing more current than available.
+			</p>
+            <p>
+                An option was to have the solar panel charge a power bank and the power bank power the Arduino. This option would have been more cost-effective than the current prototype, but it was not efficient, not a self-contained bottle, and required users to carry a power bank. Instead, a solar charger and LiPo battery were used to provide stable power for the Arduino. A rechargeable battery meant that when the bottle was not in use, the bottle can simply sit outside and store energy for future use. The components were also able to fit inside the cap, allowing it to be one whole product, but the cost of the project doubled to $44. If purchased in bulk and straight from the manufacturer, the price would decrease and become more accessible to users. Cheaper parts could be used to accomplish the same task. Through the efforts of a nonprofit or business, the bottle could potentially be distributed to countries in dire need. 
+            </p>
+            <p>
+                The cap can be paired with any standard aluminum can. This discovery was made when the length of the Arduino circuit positioned the UVC LED off-center. I realized that the opening of a drink can was also to the side, enabling the cap to fit perfectly on top. Aluminum cans are found in abundance nearly everywhere; reusing the can for water purification purposes reduces waste and reliance on the actual bottle. The solar feature can be used to charge an electronic device, which is especially helpful during an emergency situation or power outage. 
+            </p>
+            <p>
+                This water bottle is targeted toward developing nations that may not have access to clean water. However, it is a simple and portable device that can be used by anyone. The bottle cap is multifunctional, encompasses a wide range of people, and accomplishes the engineering goals of being solar-powered, powering off automatically, and containing a storage unit. 
+            </p>
+
+            <h2>Awards and Recognition</h2>
+            <ul>
+                <li>
+                    MIT IDEAS Social Innovation Challenge Finalist
+                </li>
+                <li>
+                    Regeneron ISEF 2020 finalist
+                </li>
+                <li>
+                    Spellman HV Clean Tech Finalist (Top 10 Worldwide)
+                </li>
+                <li>
+                    IGTMC: Most Outstanding Environmental Engineering Project
+                </li>
+                <li>
+                    Accepted to Sigma Xi Student Research Conference
+                </li>
+                <li>
+                    Capital Regional Science & Engineering Fair Best of Show and 1st place Environmental Engineering
+                </li>
+                <li>
+                    Yale Science & Engineering Association: Most outstanding 11th-grade student exhibiting in the areas of Computer Science, Engineering, Physics or Chemistry
+                </li>
+                <li>
+                    NOAA’s Taking the Pulse of the Planet Award
+                </li>
+                <li>
+                    Stockholm Junior Water Prize 2nd place State winner
+                </li>
+                <li>
+                    The Office of Naval Research - Naval Science Award
+                </li>
+                <li>
+                    American Meteorological Society Award
+                </li>
+                <li>
+                    Challenger Learning Center award
+                </li>
+                <li>
+                    The United States Agency for International Development (USAID) Science Champion Award
+                </li>
+            </ul>
+
+            <h2>Media</h2>
+            <ul>
+                <li>
+                    <a href="https://www.wctv.tv/2020/08/09/rickards-high-senior-changes-world-through-a-bottle-cap/" target="_blank">Rickards High senior changes world through a bottle cap</a>
+                </li>
+                <li>
+                    <a href="https://www.tallahassee.com/story/life/2020/04/22/rickards-high-school-student-invents-solar-powered-water-bottle-phone-charger/5099253002/" target="_blank">Rickards High School student invents solar-powered water bottle, phone charger</a>
+                </li>
+                <li>
+                    <a href="https://capitaloutlook.com/site/rickards-rising-senior-makes-a-splash-with-water-purifier-invention/" target="_blank">Rickards rising senior makes a splash with water purifier invention 
+                    </a>
+                </li>
+            </ul>
+
+			<nav class="bottomnav">
+				<a class="bclass" href="index.html"> Home </a> &nbsp;
+				<a class="bclass" href="projects.html"> More Projects → </a> &nbsp;
+			</nav>
+
+		</div>
+	</div>
+</body>
+
+</html>

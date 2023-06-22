@@ -4,47 +4,378 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="chattogo.css">
+	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About Me</title>
+	<title>Chat To Go</title>
 </head>
 
 <body>
-<nav class="NavBar-container">
-		<a class="navstyle" href="index.html"> SYH </a> &nbsp;
-		<a href="index.html"> Home </a> &nbsp;
-		<a href="projects.html"> Projects </a> &nbsp;
-        <a href="https://b349e5bb-a73d-42f4-84b4-a63bd9c41027.filesusr.com/ugd/4d9c9a_cec4649b2f7441fba94bbe9198969c83.pdf" target="_blank"> Resume </a> &nbsp;
-        <a href="about.html"> About </a> &nbsp;
+	<nav class="NavBar-container">
+		<a class="navstyle aclass" href="index.html"> SYH </a> &nbsp;
+		<a class="aclass" href="index.html"> Home </a> &nbsp;
+		<a class="aclass" href="projects.html"> Projects </a> &nbsp;
+		<a class="aclass"
+			href="https://b349e5bb-a73d-42f4-84b4-a63bd9c41027.filesusr.com/ugd/4d9c9a_7e793b37c88b4af694e41df89e8a271a.pdf"
+			target="_blank"> Resume </a> &nbsp;
+		<!-- <a href="contact.html"> Contact </a> &nbsp; -->
+		<!-- <a href="about.html"> About </a> &nbsp; -->
 	</nav>
-
-	<div class="about">
-
-		<div class="candid">
-			<img src="img/candid.jpg"> 
-		</div>
-			
+	<div class="page">
 		<div>
-			<h2>A Bit About Me</h2>
+			<h1 class="chattitle">Chat To Go</h1>
+			<p class="chatsubtitle">Chat application with embedded maps and autocomplete to make finding and sending locations easier.</p>
+			
+			<div class="links">
+				<a class="bclass" href="https://designftw.github.io/hw11-sabrinahu618/chat-client/" target="_blank"> View Website </a> &nbsp; &nbsp;
+				<a class="bclass" href="https://github.com/designftw/hw11-sabrinahu618/tree/master/chat-client" target="_blank"> View Github </a> &nbsp;
+			</div>
+
+			
+			<div class="category">
+				<div class="categories">UX Research</div>
+				<div class="categories">UI/UX Design</div>
+				<div class="categories">Full-stack Development</div>
+				<div class="categories">Web</div>
+			</div>
+
+		</div>
+
+		<div class="facts">
+			<div><b>My Role:</b> UI/UX Design, Research, Engineer</div>
+			<div><b>Duration:</b> Mar-May 2023 (2 months)</div>
+			<div><b>Team:</b> Individual</div>
+			<div><b>Tools:</b> Figma, VueJS, HTML/CSS, Google Maps API</div>
+			<div><b>Class:</b> Design for the Web: Languages and User Interfaces</div>
+		</div>
+
+		<div>
+			<h2>Project Overview</h2>
 			<p>
-				My love for technology and problem-solving took off with
-				my first invention to help my community during hurricanes.
-				I spent that year designing, building, testing, failing, and 
-				trying over and over again. I became enamored with the process 
-				of turning ideas and possibilities into impact.
+				Chat To Go is a chat application I built as my final project for my Design for the Web class. Our 
+				objective was to create a unique and novel feature. 
+				My project centers around finding and sharing locations with built-in maps.
+				This app makes planning and coordinating meetings more convenient by allowing participants to view
+				the location and nearby points of interests. It can also show
+				alternate meeting places based on geographic considerations. Users can find nearby restaurants,
+				stores, or services relevant to their conversations for easier decision making and recommendations.
 			</p>
+
+			
+			<h2>Problem</h2>
 			<p>
-				Fast forward to today... that spark is still going. These past few months, I've 
-				been working at the Digital Humanities Lab to build a communication platform 
-				for exiled Ukrainian scientists. I've learned how to build websites (like the 
-				one you're on right now!), design apps, and create delightful user experiences.
-				Of course, the learning never stops. I'm excited to continue growing, especially 
-				in the intersection of humanities and STEM.
+				From interviews, I discovered that users find it inconvenient to share locations in chat
+				applications. They need to
+				leave the app to search for information about where to go. They want an easier way to find and decide
+				on places.
 			</p>
-			<p> 
-				Beyond this, you can spot me in the wild munching on honey lavender ice cream, 
-				strumming my ukulele, sipping hot matcha, or dramatically staring off into space.
+
+			<h3 class="question">How might this app make meeting up and sharing locations a more seamless experience?</h3>
+
+			<h2>Unmet Needs</h2>
+			<div class="unmet" style="text-align: center;">
+				<div>
+					<b>Recommendations and Trust</b>
+					<p>
+						Discover new places through friends. </p>
+					</p>
+				</div>
+				<div>
+					<b>Convenience and Accessibility</b>
+					<p>
+						Relevant information can be accessed within the
+						application itself.
+					</p>
+				</div>
+				<div>
+					<b>
+						Enhanced Decision-Making
+					</b>
+					<p>
+						A more efficient and user-friendly process for evaluating options.
+					</p>
+				</div>
+			</div>
+
+			<h2>Solution: Chat To Go</h2>
+			<img src="chatimg/solution.png" alt="Chat To Go" width="100%">
+
+			<h2>Human-Centered Design Process</h2>
+			<img class="process" src="chatimg/design process.png" width="80%">
+
+			<h2>User Research</h2>
+			<!-- <h3>Interviews</h3> -->
+			<p>
+				I conducted interviews with 3 participants to understand their experiences with messaging apps and how
+				they make plans to go places.
+				<br><br>
+			<h3>Interview Questions</h3>
+
+			<div class="interview">
+				<div>
+					<b>General</b>
+					<ol>
+						<li>
+							What messaging app do you use the most and why?
+						</li>
+						<li>
+							Have you ever wished there was a specific feature your messaging app had?
+						</li>
+						<li>
+							Have you ever been frustrated with this app?
+						</li>
+						<li>
+							Do you use separate messaging apps for different purposes?
+						</li>
+					</ol>
+				</div>
+				<div>
+					<b>Specific Use Case</b>
+					<ol>
+						<li>
+							Tell me how you and your friends make plans to go out.
+						</li>
+						<li>
+							Were there any setbacks or things you wish went more smoothly?
+						</li>
+						<li>
+							How do you discover new places?
+						</li>
+						<li>
+							How do friends affect your decisions to go out?
+						</li>
+						<li>
+							Where do you get recommendations from?
+						</li>
+					</ol>
+				</div>
+			</div>
+
+			<br><br>
+
+			<b>Key Quotes</b>
+				<div class="left">
+					"When making plans to eat with friends in person, we'll look at Google Maps to see where we should
+					go and how
+					far it is. When
+					we aren't together, we just text about it. This can lead to setbacks in planning with abilities to
+					meet up.
+					When giving ideas of where to go,
+					we need to open a separate browser to see how far it is."
+				</div>
+				<div class="right">
+					"Sometimes my friends mention or post a restaurant they went to on social media and that's how I
+					find out
+					about new places. I also like eating out a lot, especially Asian food."
+				</div>
+				<div class="left">
+					"I'd prioritize geographic information because I'll choose a place that is close enough and
+					satisfies a
+					particular criteria of places I'm happy to go to."
+				</div>
+
+				<br><br>
+			<b>Insights</b>
+			<ul>
+				<li>
+					People often discover new places through their friends and trust their recommendations.
+				</li>
+				<li>
+					Users heavily consider how close a restaurant is when deciding where to eat.
+				</li>
+				<li>
+					Users find it annoying to leave the app to check for information about a restaurant.
+				</li>
+				<li>
+					Social media can influence where people go to eat.
+				</li>
+				<li>
+					Users want an easier way to find and decide on places to eat.
+				</li>
+			</ul>
+
+			<h2>Paper Prototype</h2>
+			<img src="chatimg/paperprototype.png" alt="Paper Prototype" width="100%">
+
+			<h2>User Testing</h2>
+			<b>Three Tasks Given</b>
+			<ol>
+				<li>Find the Maps icon in the chat.</li>
+				<li>Successfully complete a search to find a restaurant.</li>
+				<li>Send findings to chat.</li>
+			</ol>
+
+			<b> Insights from User Testing </b>
+			<ul>
+				<li>Participants found it more intuitive to directly select the Maps icon next
+					to the chat text box and type out the Google search for the restaurant.
+				</li>
+				<li>
+					Participants thought the automatic query was a cool feature but did not understand
+					exactly how it worked.
+				</li>
+				<li>
+					Participants tried things out even if they weren't sure and knew they were on the
+					right track when they recognized the icons.
+				</li>
+				<li>
+					Even if the participants didn't really know how the feature worked, they were all
+					able to successfully complete the tasks without any help.
+				</li>
+			</ul>
+
+			<b>Plans for changes</b>
+			<ul>
+				<li>
+					Allow for a manual search in Maps with the icon next to
+					the chat text box.
+				</li>
+				<li>
+					Have an additional feature that automatically searches for the restaurant
+					in Maps if it's sent in the chat.
+				</li>
+				<li>
+					Make the map interactive instead of just a static image.
+				</li>
+			</ul>
+
+			<h2>Digital Prototype</h2>
+			<video width="500" controls>
+				<source src="vid/chatfigma.webm" type="video/webm">
+			</video>
+			<br><br>
+			<b>Improvements Made:</b>
+			<ul>
+				<li>Included more pages for different options.</li>
+				<li>Allowed for both a manual Google Maps search and an automatic query.</li>
+				<li>Layout is more understandable.</li>
+				<li>Allowed for selection of different options and displayed them.</li>
+				<li>Included more icons for a better look and feel.</li>
+			</ul>
+
+			<h2>User Testing</h2>
+			<b>Insights from User Testing</b>
+			<ul>
+				<li>
+					It was not intuitive for the participant to find the map icon by clicking on the "Chinatown"
+					message, but they were able to find the map icon next to the chat box.
+				</li>
+				<li>
+					Participant was used to Facebook Messenger layout and thought the map icon would send location,
+					so they tried to exit out and go to regular Google Maps.
+				</li>
+				<li>
+					The "Send to Chat" button was not immediately obvious to participants because it is not usually
+					seen on Google maps.
+				</li>
+			</ul>
+
+			<b>Plans for changes</b>
+			<ul>
+				<li>
+					Create a separate input for locations that generates an automatic search in Google Maps when clicked in chat.
+				</li>
+				<li>
+					Auto-generate an embedded map when a location was inputted.
+				</li>
+				<li>
+					Include a clickable list of recent locations sent in chat for easy access.
+				</li>
+			</ul>
+
+			<h2>Final User Flow</h2>
+			<figure class="image">
+				<img src="chatimg/userflow.png" width="100%">
+			</figure>
+
+			<h2>Final Design</h2>
+			<!-- <p>
+				This chat application streamlines location sharing with Google Maps integration. Simply enter a location
+				in the input
+				field to access a dropdown menu of autocomplete suggestions, ensuring accurate and properly formatted
+				searches. Once
+				you send the location, an interactive embedded map of the chosen spot appears in the chat. You can
+				effortlessly scroll,
+				zoom in, and explore the surrounding area. This seamless experience is made possible through the
+				utilization of the
+				Google Maps autocomplete API and the Google Maps Embed API.
+				<br><br>
+				Moreover, the shared location in the chat is a clickable
+				link that swiftly transports you to the corresponding place on Google Maps. To further enhance
+				convenience, a Maps icon
+				is conveniently positioned next to the location input, granting easy access to Google Maps for standard
+				searches.
+				Additionally, a clickable list of recent locations mentioned in the chat simplifies the process of
+				finding places,
+				providing a comprehensive view within the chat and offering additional options to navigate directly to
+				Google Maps.
+				<br><br>
+				In summary, this chat application integrates Google Maps to facilitate accurate location searches,
+				display interactive
+				maps, and offer seamless navigation. With clickable links, intuitive icons, and a handy list of recent
+				locations,
+				finding places becomes effortless and brings added convenience to the chat experience.
+			</p> -->
+
+			<div class="complete">
+				<figure>
+					<img src="chatimg/autocomplete.png" width="400">
+				</figure>
+				<p>
+					Enter a location in the input field to access a dropdown menu of autocomplete suggestions.
+					An icon is positioned next to the location input for easy access to standard searches in Google Maps.
+				</p>
+			</div>
+
+
+			<div class="complete">
+				<p>Once you send the location, an interactive embedded map of the chosen spot appears in the chat. Effortlessly scroll, zoom, and explore the surrounding area. This feature is made using Google Maps autocomplete API and the Google Maps Embed API.</p>
+				<figure>
+					<img src="chatimg/post.png" width="400">
+				</figure>
+			</div>
+
+			<div class="complete">
+				<figure>
+					<img src="chatimg/pierceparkmap.png" width="400">
+				</figure>
+				<p>The shared location in the chat is a clickable link that transports you to the corresponding place on Google Maps. </p>
+			</div>
+
+			<div class="complete">
+				<p>A clickable list of recent locations provides a comprehensive view within the chat and offers an additional option to navigate directly to Google Maps.</p>
+				<figure>
+					<img src="chatimg/recentlocations.png" width="400">
+				</figure>
+			</div>
+
+			<h2>Chat App Walkthrough</h2>
+			<video width="100%" controls>
+				<source src="vid/walkthrough.webm" type="video/webm">
+			</video>
+
+			<p>
+				In summary, this chat application integrates Google Maps to facilitate accurate location searches,
+					display interactive
+					maps, and offer seamless navigation. With clickable links, intuitive icons, and a handy list of recent
+					locations,
+					finding places becomes effortless and brings added convenience to the chat experience.
 			</p>
-			<a class="email" href="mailto:syh@mit.edu">syh@mit.edu</a>
+
+			<h2>Reflections</h2>
+			<p>
+				With every round of user testing, I was able to identify areas for improvement from the feedback.
+				The testing revealed what was intuitive and what was not. The paper prototyping was a great way
+				to get feedback that debunked my initial assumptions.
+				I think I would have benefitted from more and a greater variety of testers. Additionally, having to actually code
+				the application made me aware of the limitations of my digital prototype. I needed to adapt to create achievable 
+				results.
+			</p>
+
+			<nav class="bottomnav">
+				<a class="bclass" href="index.html"> Home </a> &nbsp;
+				<a class="bclass" href="flowerhouse.html"> Next Project: Flowerhouse → </a> &nbsp;
+			</nav>
+
 		</div>
 	</div>
 </body>
