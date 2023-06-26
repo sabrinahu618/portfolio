@@ -21,11 +21,16 @@ body{
 
   .portfolio a{
     color: #748ffc;
-    text-decoration: underline;
+    text-decoration-line: none;
+    /* text-decoration: underline; */
     margin-left: auto;
     margin-right: auto;
     font-size: 13pt;
     line-height: 0;
+  }
+
+  .portfolio a:hover {
+    text-decoration: underline;
   }
 
   .suba {
@@ -101,7 +106,7 @@ body{
   }
 
   .home {
-    width: 70em;
+    max-width: 70em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 2em;
@@ -109,6 +114,8 @@ body{
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5em;
+    justify-content: center;
+    align-items: center;
   }
 
   .aboutme {
