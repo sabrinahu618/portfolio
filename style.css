@@ -399,6 +399,34 @@ body{
 }
 
 
+
+.hidden2{
+  position: relative;
+}
+
+/* Child Text Container */
+.hidden2 div{
+  bottom: 0;
+  right: 2;
+  position: absolute;
+  background: black;
+  color: white;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.1 linear;
+}
+
+.hidden2:hover div{
+  padding-bottom: 12.2em;
+  margin-bottom: 7.5em;
+  width: 21.6em;
+  visibility: visible;
+  opacity: 0.1; 
+  border-radius: 6pt;
+}
+
+
   @media (max-width: 60em) {
     .about {
       width: 30em;
