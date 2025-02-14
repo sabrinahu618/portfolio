@@ -1,8 +1,15 @@
 /* your css here */
-/* 
-body{
-  font-family:'Poppins', Helvetica, sans-serif;
-} */
+
+@font-face {
+  font-family: "Avenir Light";
+  src: url('img/avenir-light.ttf') format('truetype');
+}
+
+body {
+  font-family: "Avenir Light", "PT Sans", Calibri, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
 
 
 .copyright {
@@ -83,12 +90,14 @@ body{
     justify-content: center; */
     color: #748ffc;
     font-size: 18pt;
-    /* font-family: 'Poppins', Helvetica, sans-serif; */
+    font-family: 'Poppins', Helvetica, sans-serif;
     font-weight: 800;
     line-height: 0.5;
   }
 
   .header {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     color: #748ffc;
@@ -345,6 +354,8 @@ body{
   }
 
   .title {
+    font-family: 'Poppins', Helvetica, sans-serif;
+    font-weight: bold;
     color: #748ffc;
     font-size: 25pt;
     line-height: 0;
@@ -465,6 +476,10 @@ body{
       grid-template-columns: 1fr;
       padding-top: 2em;
       padding-left: 0;
+    }
+
+    .home p {
+      color: grey;
     }
 
     .about{
