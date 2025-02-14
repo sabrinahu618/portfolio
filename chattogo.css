@@ -87,6 +87,7 @@ body {
 }
 
 .unmet {
+    font-family: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
