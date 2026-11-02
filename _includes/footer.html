@@ -1,0 +1,10 @@
+{%- assign p = site.data.profile -%}
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <div>
+      <p class="site-footer__lead">Let's talk about learning, communication, and the people technology is for.</p>
+      {% include contact-links.html %}
+    </div>
+    <p class="site-footer__small">© {{ site.time | date: '%Y' }} {{ p.name }} · Built by hand with Jekyll, hosted on GitHub Pages.</p>
+  </div>
+</footer>

@@ -1,198 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Sabrina Hu
+body_class: home
+---
+{%- assign p = site.data.profile -%}
+<section class="wrap hero" aria-labelledby="hero-title">
+  <div class="hero__text">
+    <p class="kicker">{{ p.roles }}</p>
+    <h1 id="hero-title"><span class="hero__hi">Hi, I'm Sabrina.</span> I build technology that helps people
+      <mark class="ink ink--learning">learn</mark>,
+      <mark class="ink ink--communication">communicate</mark>, and
+      <mark class="ink ink--impact">grow</mark>.</h1>
+    <p class="hero__intro">{{ p.intro }}</p>
+    {% include contact-links.html %}
+  </div>
+  <div class="hero__photo">
+    <img src="{{ p.headshot | relative_url }}" alt="{{ p.headshot_alt }}" width="720" height="900" fetchpriority="high">
+  </div>
+</section>
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>
+<section class="threads" aria-labelledby="threads-title">
+  <div class="wrap">
+    <h2 id="threads-title" class="section-title">Three threads through my work</h2>
+    <ol class="threads__list">
+      {%- for t in site.data.themes -%}
+      <li class="thread thread--{{ t.id }}">
+        <span class="thread__knot" aria-hidden="true"></span>
+        <h3>{{ t.name }}</h3>
+        <p>{{ t.blurb }}</p>
+      </li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<section class="wrap work" aria-labelledby="work-title">
+  <div class="section-head">
+    <h2 id="work-title" class="section-title">Selected work</h2>
+    <a class="arrow-link" href="{{ '/work/' | relative_url }}">All work <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="card-grid">
+    {%- assign featured = site.projects | where: "featured", true | sort: "order" -%}
+    {%- for pr in featured -%}
+      {% include project-card.html project=pr %}
+    {%- endfor -%}
+  </div>
+</section>
 
-</head>
-
-<body>
-	<nav class="NavBar-container">
-		<a class="navstyle aclass" href="index.html"> SYH </a> &nbsp;
-		<a class="navstyle aclass" href="index.html"> Home </a> &nbsp;
-		<a class="aclass" href="projects.html"> Projects </a> &nbsp;
-		<!-- <a class="aclass"
-			href="https://b349e5bb-a73d-42f4-84b4-a63bd9c41027.filesusr.com/ugd/4d9c9a_dbce6ef1dfed440baba149e14f9ba120.pdf"
-			target="_blank"> Resume </a> &nbsp; -->
-		<!-- <a href="contact.html"> Contact </a> &nbsp; -->
-		<!-- <a href="about.html"> About </a> &nbsp; -->
-	</nav>
-
-	<div class="home">
-		<div class="aboutme">
-			<div class="header1">
-				<h1>Hi! I'm Sabrina.</h1>
-			</div>
-			<p>
-				Product Manager. MIT Alum. Computer Science and Media Studies. 
-				Excited to lead creative solutions at the 
-				intersection of humanities and engineering.
-			</p>
-		</div>
-		<div class="headshot"> <img src="img/headshot.jpg"> </div>
-	</div>
-
-	<div class="homepage2">
-		<a href="chattogo.html" style="text-decoration:none">
-			<div class="content_img">
-				<article>
-					<span class="projectText">
-						<h1 class="title">Chat To Go</h1>
-						<p class="fade">
-							Web Development and Design
-						</p>
-						<p> 
-							Chat app with embedded Google Maps and autocomplete to make finding
-							and sending locations easier.
-						</p>
-					</span>
-
-					<img src="img/chattogo.png" alt="" height="auto" title="Chat To Go">
-					<div>
-						UX Research <br>
-						UI/UX Design <br>
-						Front-end Development <br>
-						Web <br>
-					</div>
-				</article>
-			</div>
-		</a>
-
-		<a href="solarcap.html" style="text-decoration:none">
-			<div class="content_img">
-			<article>
-				<span class="projectText">
-					<h1 class="title">Solar Cap</h1>
-					<p class="fade">
-						Invention
-					</p>
-					<p>Solar-powered cap compatible with drink cans to purify water and charge electronics.</p>
-					<p class="tiny">MIT IDEAS Social Innovation Challenge Finalist, Regeneron ISEF 2020 finalist, Spellman HV Clean Tech Finalist (Top 10 Worldwide)</p>
-				</span>
-				<img src="img/bottlecap2.png" alt="" height="auto" title="Solar Cap">
-				<div>
-					Engineering Design <br>
-					Prototyping <br>
-					Testing <br>
-					Personal Project <br>
-				</div>
-			</article>
-			</div>
-		</a>
-
-		<a href="flowerhouse.html" style="text-decoration:none">
-		<div class="content_img">
-			<article>
-				<span class="projectText">
-					<h1 class="title">Flowerhouse</h1>
-					<p class="fade">
-						Human-Centered Design
-					</p>
-					<p>A digital solution to optimize the flower-buying experience for new customers. </p>
-				</span>
-				<img src="https://static.wixstatic.com/media/4d9c9a_12af19a01e5644f98b36c9c3d93a68fd~mv2.png/v1/fill/w_774,h_516,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/mediamodifier_image.png" alt="" height="
-					auto" title="Flowerhouse">
-				<div>
-					UX Research <br>
-					UI/UX Design <br>
-					Mobile <br>
-					University Project <br>
-				</div>
-			</article>
-		</div>
-	</a>
-
-	<!-- <a href="foodie.html" style="text-decoration:none">
-		<div class="content_img">
-		<article>
-			<span class="projectText">
-				<h1 class="title">Foodie</h1>
-				<p class="fade">
-					Web Development and Design
-				</p>
-				<p>Share and rank local food recommendations with friends.</p>
-				<p class="tiny">Top 10 overall finalist @ HackMIT 2022 (48-hour hackathon) out of 1,000 accepted participants worldwide</p>
-			</span>
-			<img src="https://static.wixstatic.com/media/4d9c9a_aaffea9ea7da46ccbaa82431e64d600f~mv2.png/v1/crop/x_0,y_357,w_1536,h_1023/fill/w_774,h_516,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/mediamodifier_image%20(1).png"
-				alt="" height="auto" title="Foodie">
-				<div>
-					UI/UX Design <br>
-					Front-end Development <br>
-					Web <br>
-					Social Media <br>
-				</div>
-		</article>
-		</div>
-	</a> -->
-
-	
-
-	<a href="https://drive.google.com/file/d/1fzPpMGmgGousgZ0NxzGqoEXBwIlXlaOm/view?usp=sharing" style="text-decoration:none">
-		<div class="content_img">
-		<article>
-			<span class="projectText">
-				<h1 class="title">Love and Loss</h1>
-				<p class="fade">
-					Game Development
-				</p>
-				<p>An interactive exploration of connection and change through the transformations of people and time</p>
-			</span>
-			<img src="img/love and loss.png" alt="" height="auto" title="Love and Loss">
-			<div>
-				Storytelling <br>
-				Prototyping <br>
-				Unity <br>
-				Team University Project <br>
-			</div>
-		</article>
-		</div>
-	</a>
-
-		<a class="seeMore" href="projects.html" style="text-decoration: none;"> ... </a>
-
-
-	</div>
-
-	<div class="about">
-		<div class="candid">
-			<img src="img/candid.jpg">
-		</div>
-
-		<div class="shrinkabout">
-			<h2 class="color">A Bit About Me</h2>
-			<p>
-				My love for technology and problem-solving took off with
-				my first invention to help my community during hurricanes.
-				I spent that year designing, building, testing, failing, and
-				trying over and over again. I became enamored with the process
-				of turning ideas and possibilities into impact.
-			</p>
-			<p>
-				Fast forward to today... that spark is still going. These past few months, I've
-				been working at the Digital Humanities Lab to build a communication platform
-				for exiled Ukrainian scientists. I've learned how to build websites (like the
-				one you're on right now!), design apps, and create delightful user experiences.
-				Of course, the learning never stops. I'm excited to continue growing, especially
-				in the intersection of humanities and STEM.
-			</p>
-			<p>
-				Beyond this, you can spot me in the wild munching on honey lavender ice cream,
-				strumming my ukulele, sipping hot matcha, or dramatically staring off into space.
-			</p>
-			<a class="email" href="mailto:sabrinahu0618@gmail.com">✉ sabrinahu0618@gmail.com</a>
-		</div>
-	</div>
-	<!-- <br><br> -->
-	
-
-	<p class="copyright"> Sabrina Hu © 2023</p>
-</body>
-
-</html>
+<section class="wrap home-about" aria-labelledby="home-about-title">
+  <div class="home-about__inner">
+    <h2 id="home-about-title" class="section-title">A bit about me</h2>
+    <p>My first invention was a solar-powered water purifier I built in high school to help my community during Florida's hurricanes. I spent a year designing, building, testing, failing, and trying again, and I fell for the process of turning an idea into something that helps someone. That's still what I'm chasing, now with AI.</p>
+    <p class="now"><span class="now__label">Now</span> {{ p.now }}</p>
+    <a class="arrow-link" href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">→</span></a>
+  </div>
+</section>

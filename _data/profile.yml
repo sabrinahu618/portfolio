@@ -1,0 +1,28 @@
+# ---------------------------------------------------------------
+# Everything about you that appears on more than one page.
+# Edit freely; the site picks it up on the next push.
+# ---------------------------------------------------------------
+name: Sabrina Hu
+location: San Francisco, CA
+email: sabrinahu0618@gmail.com
+linkedin: https://www.linkedin.com/in/sabrina-y-hu/
+resume: /assets/files/Sabrina_Hu_Resume.pdf
+
+headshot: /assets/img/headshot.webp
+headshot_alt: Sabrina Hu smiling, wearing a black blazer, outdoors in front of stone columns.
+
+# Homepage introduction ------------------------------------------
+roles: Designer · Researcher · Educator
+intro: >-
+  I studied Computer Science and Media Studies at MIT, then spent the
+  past year shipping AI products as a product manager at Samsara and Nooks.
+  Along the way I've taught beginners to build their first websites,
+  interviewed exiled scientists to design a platform that keeps them
+  connected, and invented a solar water purifier for hurricane season.
+  Across all of it, I'm drawn to one question: how can AI help people
+  become more capable and more connected?
+
+# Short "now" line shown on the homepage.
+now: >-
+  Applying to graduate programs to research how AI can support learning,
+  communication, and wellbeing.

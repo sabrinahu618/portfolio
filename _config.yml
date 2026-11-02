@@ -1,0 +1,49 @@
+# ---------------------------------------------------------------
+# Site settings. Most day-to-day edits live in _data/profile.yml
+# and _projects/*.md instead of here.
+# ---------------------------------------------------------------
+title: Sabrina Hu
+description: >-
+  Designer, researcher, and educator building human-centered technology
+  that helps people learn, communicate, and grow.
+lang: en
+
+# GitHub Pages address: https://sabrinahu618.github.io/portfolio/
+# If you add a custom domain later, set url to it and baseurl to "".
+url: "https://sabrinahu618.github.io"
+baseurl: "/portfolio"
+
+# While drafting, show highlighted "to do" notes and image placeholders.
+# Set to false before you submit so any leftovers are hidden.
+show_placeholders: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+
+plugins:
+  - jekyll-seo-tag
+
+collections:
+  projects:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope: { path: "", type: projects }
+    values: { layout: project }
+  - scope: { path: "" }
+    values: { layout: page, image: /assets/img/og-image.jpg }
+
+author: Sabrina Hu
+twitter:
+  card: summary
+
+exclude:
+  - README.md
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

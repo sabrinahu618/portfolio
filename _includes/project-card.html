@@ -1,0 +1,16 @@
+{%- assign pr = include.project -%}
+<article class="card">
+  <div class="card__media">
+    {%- if pr.cover -%}
+    <img src="{{ pr.cover | relative_url }}" alt="{{ pr.cover_alt }}" width="800" height="533" loading="lazy" decoding="async">
+    {%- else -%}
+    <div class="card__placeholder" aria-hidden="true">{% include thread-mark.html %}<span>{{ pr.org }}</span></div>
+    {%- endif -%}
+  </div>
+  <div class="card__body">
+    {% include theme-tags.html themes=pr.themes %}
+    <h3 class="card__title"><a href="{{ pr.url | relative_url }}">{{ pr.title }}</a></h3>
+    <p class="card__summary">{{ pr.summary }}</p>
+    <p class="card__meta">{{ pr.role }} · {{ pr.years }}</p>
+  </div>
+</article>

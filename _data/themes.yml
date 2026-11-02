@@ -1,0 +1,11 @@
+# The three threads that tie the work together.
+# A project lists the theme ids it belongs to in its `themes:` field.
+- id: learning
+  name: Learning
+  blurb: Teaching beginners to build, and studying how tools can make learning more accessible.
+- id: communication
+  name: Communication
+  blurb: Designing the channels that keep people connected, from exiled scientists to 800,000 drivers.
+- id: impact
+  name: Social impact
+  blurb: Building for people in hard circumstances, from hurricane season to teens' relationships with their phones.

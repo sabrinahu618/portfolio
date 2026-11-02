@@ -1,0 +1,40 @@
+# "Earlier work" list at the bottom of the Work page.
+# Keep each line short. `url` is optional.
+- title: Chat To Go
+  year: 2023
+  kind: Web app
+  line: Location-based chat with map search and navigation, shaped by user interviews and testing.
+  url: https://designftw.github.io/hw11-sabrinahu618/chat-client/
+- title: Foodie
+  year: 2022
+  kind: HackMIT
+  line: Social food-recommendation app with feeds and Google Maps. Top 10 of 300 teams.
+- title: Banana Lounge
+  year: 2022
+  kind: Documentary
+  line: A short film about MIT's 24/7 free-banana student space. MIT in 3:00 finalist.
+  url: https://youtu.be/JJZpgoZ4WVk
+- title: "Hi. I'm lonely."
+  year: ""   # TODO: add year
+  kind: Documentary
+  line: An exploration of what loneliness means to different people.
+  url: https://youtu.be/gAq20bT529c
+- title: Love and Loss
+  year: ""   # TODO: add year
+  kind: Game · Unity
+  line: An interactive story about connection and change across people and time.
+  url: https://drive.google.com/file/d/1fzPpMGmgGousgZ0NxzGqoEXBwIlXlaOm/view?usp=sharing
+- title: MIT Self-Assembly Lab
+  year: 2022
+  kind: Research
+  line: Prototyped a transformable bag for Hussein Chalayan with 3D-printed self-assembling beads.
+- title: ThermoDesk
+  year: ""   # TODO: add year
+  kind: Engineering
+  line: A lap desk that turns a laptop's waste heat into electricity with Peltier tiles.
+  url: https://docs.google.com/presentation/d/1WdMXBlV4R9HcZREURxEcLxtFyGxORO5dVTozTQBKQhU/edit?usp=sharing
+- title: Safety Alert
+  year: ""   # TODO: add year
+  kind: Embedded systems
+  line: Siren, light, and location-sharing alert device built on a microcontroller.
+  url: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.html

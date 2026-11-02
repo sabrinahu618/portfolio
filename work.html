@@ -1,0 +1,40 @@
+---
+layout: default
+title: Work
+permalink: /work/
+description: Case studies in human-centered design, research, teaching, and AI products.
+---
+<div class="wrap page">
+  <header class="page__header">
+    <p class="kicker">Work</p>
+    <h1>Projects, from research to launch</h1>
+    <p class="lede">Each case study covers the problem, who it was for, how I approached the research, design, and building, and what came of it.</p>
+  </header>
+
+  <section aria-labelledby="case-studies-title">
+    <h2 id="case-studies-title" class="visually-hidden">Case studies</h2>
+    <div class="card-grid">
+      {%- assign projects = site.projects | sort: "order" -%}
+      {%- for pr in projects -%}
+        {% include project-card.html project=pr %}
+      {%- endfor -%}
+    </div>
+  </section>
+
+  <section class="archive" aria-labelledby="archive-title">
+    <h2 id="archive-title" class="section-title">Earlier work</h2>
+    <p class="archive__intro">Class projects, hackathons, short films, and lab work from my time at MIT.</p>
+    <ul class="archive__list">
+      {%- for a in site.data.archive -%}
+      <li>
+        <span class="archive__year">{{ a.year }}</span>
+        <span class="archive__main">
+          {%- if a.url -%}<a href="{{ a.url }}">{{ a.title }}</a>{%- else -%}<span class="archive__title">{{ a.title }}</span>{%- endif -%}
+          <span class="archive__kind">{{ a.kind }}</span>
+          <span class="archive__line">{{ a.line }}</span>
+        </span>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </section>
+</div>

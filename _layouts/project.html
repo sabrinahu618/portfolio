@@ -1,0 +1,74 @@
+---
+layout: default
+---
+{%- assign projects = site.projects | sort: "order" -%}
+{%- for pr in projects -%}
+  {%- if pr.url == page.url -%}
+    {%- assign i = forloop.index0 -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign n = projects | size -%}
+{%- assign next_i = i | plus: 1 | modulo: n -%}
+{%- assign next = projects[next_i] -%}
+
+<article class="case">
+  <header class="wrap case__header">
+    <p class="kicker">{{ page.org }}</p>
+    <h1>{{ page.title }}</h1>
+    <p class="lede">{{ page.summary }}</p>
+    {% include theme-tags.html themes=page.themes %}
+  </header>
+
+  <div class="wrap wrap--wide">
+    {%- if page.cover -%}
+    <figure class="case__cover">
+      <img src="{{ page.cover | relative_url }}" alt="{{ page.cover_alt }}"{% if page.cover_width %} width="{{ page.cover_width }}" height="{{ page.cover_height }}"{% endif %} fetchpriority="high">
+    </figure>
+    {%- elsif site.show_placeholders -%}
+    <figure class="case__cover figure--placeholder">
+      <div class="placeholder-box placeholder-box--cover"><span class="placeholder-box__label">Cover image needed</span> {{ page.cover_need }}</div>
+    </figure>
+    {%- endif -%}
+  </div>
+
+  <div class="wrap case__grid">
+    <aside class="glance" aria-labelledby="glance-title">
+      <h2 id="glance-title" class="glance__title">At a glance</h2>
+      <dl>
+        {% if page.role %}<div><dt>My role</dt><dd>{{ page.role }}</dd></div>{% endif %}
+        {% if page.years %}<div><dt>When</dt><dd>{{ page.years }}</dd></div>{% endif %}
+        {% if page.audience %}<div><dt>Who it was for</dt><dd>{{ page.audience }}</dd></div>{% endif %}
+        {% if page.team %}<div><dt>Team</dt><dd>{{ page.team }}</dd></div>{% endif %}
+        {% if page.methods %}<div><dt>Methods</dt><dd>{{ page.methods | join: ", " }}</dd></div>{% endif %}
+        {% if page.tools %}<div><dt>Tools</dt><dd>{{ page.tools | join: ", " }}</dd></div>{% endif %}
+      </dl>
+      {%- if page.links -%}
+      <ul class="glance__links">
+        {%- for l in page.links -%}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{%- endfor -%}
+      </ul>
+      {%- endif -%}
+    </aside>
+
+    <div class="case__body">
+      {%- if page.highlights -%}
+      <ul class="highlights" aria-label="Outcomes in brief">
+        {%- for h in page.highlights -%}
+        <li><span class="highlights__value">{{ h.value }}</span><span class="highlights__label">{{ h.label }}</span></li>
+        {%- endfor -%}
+      </ul>
+      {%- endif -%}
+      <div class="prose">
+        {{ content }}
+      </div>
+    </div>
+  </div>
+
+  {%- if next and next.url != page.url -%}
+  <nav class="wrap next-project" aria-label="Next project">
+    <a href="{{ next.url | relative_url }}">
+      <span class="next-project__label">Next project</span>
+      <span class="next-project__title">{{ next.title }} <span aria-hidden="true">→</span></span>
+    </a>
+  </nav>
+  {%- endif -%}
+</article>
