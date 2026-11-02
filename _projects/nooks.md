@@ -8,7 +8,7 @@ featured: true
 years: May – Oct 2026
 role: Product Manager
 audience: Sales teams who wanted to automate repetitive prospecting work but struggled to set up automations themselves.
-team: Engineering, design, and customers; the inbound agent spanned 3 engineering teams and 4 enterprise design partners.
+team: The Plays engineering team, with input from other teams; the inbound agent also involved 4 enterprise design partners.
 methods: [Customer interviews, Sales rep observation, Funnel analysis, Co-design with design partners, Customer enablement]
 tools: [Figma, Salesforce]
 cover: /assets/img/nooks/plays-editor.webp
@@ -100,7 +100,7 @@ Companies spend heavily to generate inbound interest, but turning an inbound lea
 
 ### Designing the agent
 
-I defined a 0-to-1 autonomous inbound experience and scoped it across three engineering teams. The agent covers the full path from a new lead to a booked meeting:
+I defined a 0-to-1 autonomous inbound experience, gathering input from other teams and scoping it for the Plays engineering team. The agent covers the full path from a new lead to a booked meeting:
 
 1. **Scoring:** decide which leads to prioritize.
 2. **Research:** gather context on the lead and their company.
@@ -116,7 +116,7 @@ The agent built directly on Plays. An event triggers a Play, and the prospect is
 
 {% include nooks-agent-flow.html %}
 
-By the time I left, I had aligned the direction with all four partners and kicked off engineering across the three teams.
+By the time I left, I had aligned the direction with all four partners and kicked off engineering on the Plays team.
 
 ## Reflection
 
