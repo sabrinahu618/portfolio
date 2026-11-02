@@ -66,9 +66,24 @@ I also scoped Slack alerts to make automation visible where reps already work. A
 
 {% include figure.html src="/assets/img/nooks/slack-alert.webp" alt="The Plays editor with a workflow of Draft AI Email, then Add to Sequence (assigned round robin to an Inbound Lead - Demo Request sequence), then a Slack Alert step. A side panel configures the Slack Alert to send to the user assigned in the Add to Sequence step, with a message box that can include variables from earlier steps." width="1600" height="1072" caption="A Slack Alert step tells the assigned rep the moment a Play acts, using details from earlier steps. Image: Nooks." %}
 
-Alongside the product, I closed gaps in workflows that were causing failures. I also worked on adoption outside the product itself, through onboarding documentation, a customer webinar, and walkthroughs on customer calls. A new kind of tool only gets adopted if people understand how it fits into the way they already work.
+### Diagnosing failures
 
-{% include todo.html note="What actually caused the workflow failures, and what fixed them? One or two sentences makes the 70% far more credible." %}
+To bring failures down, I first sorted them by cause, because each kind needs a different fix:
+
+- **Configuration:** triggers, conditions, or actions set up incorrectly.
+- **User error:** customers building workflows incorrectly because the builder was confusing.
+- **AI:** incorrect outputs, malformed data, or not following instructions.
+- **Integration:** Salesforce or other third-party API failures.
+- **Execution:** steps timing out, failing to run, or completing out of order.
+- **Product bugs:** platform defects unrelated to how a customer set things up.
+
+The first two are design problems. A builder that's easy to misconfigure will be misconfigured, and AI-assisted building and a clearer editor go straight at them. The rest needed engineering, so I prioritized them with the team and closed the workflow gaps behind them.
+
+{% include todo.html note="Which causes were most common, and which fixes moved the 70%? If only some of these six actually came up, keep just those; a shorter, specific list is more convincing than a complete one." %}
+
+### Helping customers adopt it
+
+I also worked on adoption outside the product itself, through onboarding documentation, a customer webinar, and walkthroughs on customer calls. A new kind of tool only gets adopted if people understand how it fits into the way they already work.
 
 ### Outcome
 
