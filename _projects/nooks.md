@@ -65,7 +65,7 @@ I shifted the strategy from asking customers to configure every step themselves 
 
 - **Generation:** **AI-assisted Play building**, including a natural-language Plays Assistant. Users describe the sales process they want to automate in their own words (for example, which leads to target, how to research them, what kind of outreach to send, and which sequence to add them to), and the assistant turns that intent into a workflow.
 - **Transparency:** showing users what the AI is doing and why, so automation isn't a black box. This shipped in GA.
-- **Correction:** a way for users to reject an AI decision and explain what was wrong, so the system could be corrected rather than abandoned. This was my answer to the reps' second problem: a path for feedback to flow back to the people who build Plays. We explored it, but it didn't ship in GA.
+- **Correction:** when a rep declines a prospect a Play surfaced, they're asked why, and those reasons show up in managers' reporting. This was my answer to the reps' second problem: feedback now flows back to the people who build Plays, so they can adjust them instead of reps quietly ignoring bad leads. This shipped in GA.
 
 {% include figure.html src="/assets/img/nooks/plays-assistant.webp" alt="The Create Play screen with the Build with assistant tab selected. A text box asks 'What should this play automate?' with the example 'when an account books a meeting, alert the AE in Slack and pause my outbound to it.' Below are one-click starting points: Inbound, Closed Lost, and Job Change." width="1197" height="609" caption="Building with the assistant: describe what a Play should automate in plain language, or start from a one-click template. Image: Nooks." %}
 
