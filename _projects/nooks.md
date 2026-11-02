@@ -11,12 +11,11 @@ audience: Sales teams who wanted to automate repetitive prospecting work but str
 team: Engineering, design, and customers; the inbound agent spanned 3 engineering teams and 4 enterprise design partners.
 methods: [Customer interviews, Sales rep observation, Funnel analysis, Co-design with design partners, Customer enablement]
 tools: [Figma, Salesforce]
-cover: /assets/img/nooks/plays-workflow.webp
-cover_width: 818
-cover_height: 750
-cover_narrow: true
-cover_alt: "A Nooks Plays workflow in the editor, built from four connected steps: a trigger when an inbound prospect arrives, a Research Agent that looks up the prospect and account, a Draft AI Email step, and an Add to Sequence step, with an Add Step button below."
-cover_caption: "A Play in the workflow editor: an inbound prospect triggers AI research, a drafted email, and enrollment in a sequence. Image: Nooks."
+cover: /assets/img/nooks/plays-editor.webp
+cover_width: 1600
+cover_height: 913
+cover_alt: "The Nooks Plays editor for a draft workflow called Competitor renewal. A palette on the left lists steps to add: Trigger, AI actions (Agent, AI Prospecting, AI Email), and Condition. On the right, the workflow starts with a trigger that fires when an account's Competitor Renewal signal is triggered, followed by an AI Prospecting step set to find up to 20 prospects per account across 7 personas."
+cover_caption: "The Plays editor: teams build a workflow from triggers, AI actions, and conditions. Here, a Competitor Renewal signal on an account kicks off AI prospecting. Image: Nooks."
 highlights:
   - value: "2.6×"
     label: Plays adoption in six weeks
@@ -39,8 +38,6 @@ Plays sat between a company's CRM and its sales outreach. Instead of a rep manua
 3. **Personalization:** AI drafts an individualized email.
 4. **Execution:** the email is sent and the prospect is enrolled in a sequence.
 5. **Follow-up:** the prospect moves into calls, emails, texts, and LinkedIn outreach.
-
-{% include figure.html src="/assets/img/nooks/plays-editor.webp" alt="The Nooks Plays editor for a draft workflow called Competitor renewal. A palette on the left lists steps to add: Trigger, AI actions (Agent, AI Prospecting, AI Email), and Condition. On the right, the workflow starts with a trigger that fires when an account's Competitor Renewal signal is triggered, followed by an AI Prospecting step set to find up to 20 prospects per account across 7 personas." width="1600" height="913" caption="The Plays editor: teams build a workflow from triggers, AI actions, and conditions. Here, a Competitor Renewal signal on an account kicks off AI prospecting. Image: Nooks." wide=true %}
 
 ### The problem: automation that asked for too much work
 
