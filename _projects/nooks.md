@@ -81,7 +81,7 @@ To bring failures down, I first sorted them by cause, because each kind needed a
 
 - **Configuration errors:** triggers, conditions, or actions set up incorrectly. A builder that's easy to misconfigure will be misconfigured, so AI-assisted building and a clearer editor went straight at this.
 - **Product bugs at scale:** Plays couldn't yet handle the volume of leads some enterprise customers had. That was an engineering problem, so I prioritized it with the team.
-- **Integration issues:** Slack alerts failed when permissions or authorizations weren't set up correctly between Nooks and a customer's workspace.
+- **Integration issues:** Slack alerts failed when permissions or authorizations weren't set up correctly between Nooks and a customer's workspace. A clearer setup flow prevented most of these, and when a connection did break, a message now told customers to reconnect Slack instead of letting alerts fail silently.
 - **Not knowing what the AI was doing:** when customers couldn't see what the AI had done, they couldn't tell why a run went wrong or how to fix it. Transparency into the AI's actions, which shipped in GA, addressed this.
 
 ### Helping customers adopt it
