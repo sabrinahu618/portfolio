@@ -94,7 +94,9 @@ I defined a 0-to-1 autonomous inbound experience and scoped it across three engi
 
 The most important design work was on the limits. Each customer could set guardrails specific to their business, and escalating to a human was a deliberate part of the design, not a fallback. I recruited four enterprise design partners and co-designed the first version with them.
 
-{% include figure.html need="A simple diagram of the agent's decision flow: act, ask, or hand off to a human. Sketch it on paper and I'll redraw it." %}
+The agent built directly on Plays. An event triggers a Play, and the prospect is added to a sequence for an SDR to work. The sequence runs automatically until the prospect replies, which takes them out of it. When the reply is an email, the agent can respond on its own, unless sensitive information is involved. Then it escalates to a person.
+
+{% include nooks-agent-flow.html %}
 
 {% include todo.html note="Where did this end up: shipped, in beta with design partners, or still in development? And can you name the design partners publicly? (Check with Nooks before listing Toast, Deel, ServiceTitan, or Vanta.)" %}
 
