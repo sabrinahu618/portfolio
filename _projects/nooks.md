@@ -55,8 +55,6 @@ That showed up in a few ways:
 
 {% include todo.html note="Add one or two specific findings from discovery: how many customers or reps you talked to, and a moment or anonymized quote that changed your thinking." %}
 
-{% include figure.html need="The workflow builder before your changes, ideally next to the AI-assisted version." wide=true %}
-
 ### What we changed
 
 I shifted the strategy from asking customers to configure every step themselves to letting AI help them build. I think about it in three parts:
@@ -64,6 +62,8 @@ I shifted the strategy from asking customers to configure every step themselves 
 - **Generation:** **AI-assisted Play building**, including a natural-language Plays Assistant. Users describe the sales process they want to automate in their own words (for example, which leads to target, how to research them, what kind of outreach to send, and which sequence to add them to), and the assistant turns that intent into a workflow.
 - **Transparency:** showing users what the AI is doing and why, so automation isn't a black box.
 - **Correction:** giving users a way to reject an AI decision and explain what was wrong, so the system can be corrected rather than abandoned.
+
+{% include figure.html need="A screenshot of the Plays Assistant or AI-assisted building (for example, a prompt and the workflow it generated). Nooks' help docs or launch posts may have one. If not, this box disappears when placeholders are turned off." %}
 
 {% include todo.html note="Confirm which of these shipped in GA and which were designed or scoped. Transparency and correction currently read as design intent, not shipped features. Same for Slack alerts: shipped or scoped?" %}
 
