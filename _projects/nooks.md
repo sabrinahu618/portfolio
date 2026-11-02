@@ -60,9 +60,13 @@ I shifted the strategy from asking customers to configure every step themselves 
 - **Transparency:** showing users what the AI is doing and why, so automation isn't a black box.
 - **Correction:** giving users a way to reject an AI decision and explain what was wrong, so the system can be corrected rather than abandoned.
 
-{% include figure.html need="A screenshot of the Plays Assistant or AI-assisted building (for example, a prompt and the workflow it generated). Nooks' help docs or launch posts may have one. If not, this box disappears when placeholders are turned off." %}
+{% include figure.html src="/assets/img/nooks/plays-assistant.webp" alt="The Create Play screen with the Build with assistant tab selected. A text box asks 'What should this play automate?' with the example 'when an account books a meeting, alert the AE in Slack and pause my outbound to it.' Below are one-click starting points: Inbound, Closed Lost, and Job Change." width="1197" height="609" caption="Building with the assistant: describe what a Play should automate in plain language, or start from a one-click template. Image: Nooks." %}
 
-{% include todo.html note="Confirm which of these shipped in GA and which were designed or scoped. Transparency and correction currently read as design intent, not shipped features. Same for Slack alerts: shipped or scoped?" %}
+{% include todo.html note="Confirm whether transparency and correction shipped in GA, or were designed or scoped. Right now they read as design intent." %}
+
+I also scoped Slack alerts to make automation visible where reps already work. A Play can now message the assigned rep or a channel directly, including outputs from earlier steps such as an agent's response, so nobody has to keep checking the product to know what ran.
+
+{% include figure.html src="/assets/img/nooks/slack-alert.webp" alt="The Plays editor with a workflow of Draft AI Email, then Add to Sequence (assigned round robin to an Inbound Lead - Demo Request sequence), then a Slack Alert step. A side panel configures the Slack Alert to send to the user assigned in the Add to Sequence step, with a message box that can include variables from earlier steps." width="1600" height="1072" caption="A Slack Alert step tells the assigned rep the moment a Play acts, using details from earlier steps. Image: Nooks." %}
 
 Alongside the product, I closed gaps in workflows that were causing failures. I also worked on adoption outside the product itself, through onboarding documentation, a customer webinar, and walkthroughs on customer calls. A new kind of tool only gets adopted if people understand how it fits into the way they already work.
 

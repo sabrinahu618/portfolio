@@ -5,11 +5,11 @@
   Leave src empty to show a placeholder box while drafting:
   {% include figure.html alt="" caption="" need="Photo of students presenting their websites" %}
 
-  Add wide=true to let the image break out wider than the text column.
+  Images open full size when clicked, so detailed screenshots stay readable.
 {%- endcomment -%}
 {%- if include.src and include.src != "" -%}
 <figure class="figure{% if include.wide %} figure--wide{% endif %}">
-  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy" decoding="async">
+  <a class="figure__zoom" href="{{ include.src | relative_url }}" title="Open full-size image"><img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy" decoding="async"></a>
   {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
 {%- elsif site.show_placeholders -%}
