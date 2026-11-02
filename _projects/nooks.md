@@ -77,13 +77,12 @@ For the reps' first problem, I scoped Slack alerts to make automation visible wh
 
 ### Diagnosing failures
 
-To bring failures down, I first sorted them by cause. Most came from three places, and each needed a different fix:
+To bring failures down, I first sorted them by cause, because each kind needed a different fix:
 
 - **Configuration errors:** triggers, conditions, or actions set up incorrectly. A builder that's easy to misconfigure will be misconfigured, so AI-assisted building and a clearer editor went straight at this.
-- **Timeouts:** steps that took too long and never finished. These were engineering problems, so I prioritized them with the team.
+- **Product bugs at scale:** Plays couldn't yet handle the volume of leads some enterprise customers had. That was an engineering problem, so I prioritized it with the team.
+- **Integration issues:** Slack alerts failed when permissions or authorizations weren't set up correctly between Nooks and a customer's workspace.
 - **Not knowing what the AI was doing:** when customers couldn't see what the AI had done, they couldn't tell why a run went wrong or how to fix it. Transparency into the AI's actions, which shipped in GA, addressed this.
-
-{% include todo.html note="Optional: one phrase on how the timeouts were fixed (for example, retries or breaking long steps into smaller ones), if you remember." %}
 
 ### Helping customers adopt it
 
