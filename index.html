@@ -50,8 +50,10 @@ body_class: home
 <section class="wrap home-about" aria-labelledby="home-about-title">
   <div class="home-about__inner">
     <h2 id="home-about-title" class="section-title">A bit about me</h2>
+    <div class="prose-width">
     <p>My first invention was a solar-powered water purifier I built in high school to help my community during Florida's hurricanes. I spent a year designing, building, testing, failing, and trying again, and I fell for the process of turning an idea into something that helps someone. That's still what I'm chasing, now with AI.</p>
     <p class="now"><span class="now__label">Now</span> {{ p.now }}</p>
     <a class="arrow-link" href="{{ '/about/' | relative_url }}">More about me <span aria-hidden="true">→</span></a>
+    </div>
   </div>
 </section>

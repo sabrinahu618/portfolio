@@ -3,7 +3,7 @@ title: Making classroom readings readable
 org: iCivics
 summary: User research for a civics platform used by 9 million students, which found accessibility gaps in PDF-based readings and led to a prototype digital reader.
 themes: [learning, impact]
-order: 6
+order: 7
 featured: false
 years: Jan–Feb 2024
 role: User research intern

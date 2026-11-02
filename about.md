@@ -28,7 +28,7 @@ My research keeps coming back to how people stay connected. At the [MIT Digital 
 
 ## Shipping AI that people can trust
 
-After graduating, I became a product manager. At Samsara I led a messaging platform for 800,000 drivers and built the framework we used to judge whether an AI assistant's answers were good enough to ship. At Nooks I defined an autonomous AI agent, including when it should step back and hand off to a person. [That work]({{ '/work/ai-products/' | relative_url }}) taught me that the hardest questions in AI aren't about the model. They're about the people on the other side of it.
+After graduating, I became a product manager. At [Samsara]({{ '/work/samsara/' | relative_url }}) I led a messaging platform for 800,000 drivers and built the framework we used to judge whether an AI assistant's answers were good enough to ship. At [Nooks]({{ '/work/nooks/' | relative_url }}) I defined an autonomous AI agent, including when it should step back and hand off to a person. That work taught me that the hardest questions in AI aren't about the model. They're about the people on the other side of it.
 
 ## What I want to explore next
 
