@@ -68,18 +68,13 @@ I also scoped Slack alerts to make automation visible where reps already work. A
 
 ### Diagnosing failures
 
-To bring failures down, I first sorted them by cause, because each kind needs a different fix:
+To bring failures down, I first sorted them by cause. Most came from three places, and each needed a different fix:
 
-- **Configuration:** triggers, conditions, or actions set up incorrectly.
-- **User error:** customers building workflows incorrectly because the builder was confusing.
-- **AI:** incorrect outputs, malformed data, or not following instructions.
-- **Integration:** Salesforce or other third-party API failures.
-- **Execution:** steps timing out, failing to run, or completing out of order.
-- **Product bugs:** platform defects unrelated to how a customer set things up.
+- **Configuration errors:** triggers, conditions, or actions set up incorrectly. A builder that's easy to misconfigure will be misconfigured, so AI-assisted building and a clearer editor went straight at this.
+- **Timeouts:** steps that took too long and never finished. These were engineering problems, so I prioritized them with the team.
+- **Not knowing what the AI was doing:** when customers couldn't see what the AI had done, they couldn't tell why a run went wrong or how to fix it. Transparency into the AI's actions, which shipped in GA, addressed this.
 
-The first two are design problems. A builder that's easy to misconfigure will be misconfigured, and AI-assisted building and a clearer editor go straight at them. The rest needed engineering, so I prioritized them with the team and closed the workflow gaps behind them.
-
-{% include todo.html note="Which causes were most common, and which fixes moved the 70%? If only some of these six actually came up, keep just those; a shorter, specific list is more convincing than a complete one." %}
+{% include todo.html note="Optional: one phrase on how the timeouts were fixed (for example, retries or breaking long steps into smaller ones), if you remember." %}
 
 ### Helping customers adopt it
 
