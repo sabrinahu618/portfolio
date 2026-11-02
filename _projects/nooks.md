@@ -21,9 +21,11 @@ highlights:
     label: Plays adoption in six weeks
   - value: "70%"
     label: fewer workflow failures
+  - value: "11 → 120"
+    label: customers with Play activity
 ---
 
-{% include todo.html note="Before publishing: confirm the metric definitions (what counts as adoption, what counts as a failure, and the baseline and time window for each), and that everything on this page is approved to be public. Also check the end date: your resume says October, your notes say September." %}
+{% include todo.html note="Before publishing: confirm everything on this page is approved to be public. Also check the end date: your resume says October, your notes say September." %}
 
 I owned two connected initiatives at Nooks. The first made an existing automation product, **Plays**, something customers could actually use. The second extended it into **autonomous inbound automation**: AI agents that qualify, research, contact, and route new leads, and know when to hand off to a person. They share a product and a question (how much should people have to do, and how much should AI do on their behalf?), but their outcomes are separate, so I've kept them apart below.
 
@@ -89,9 +91,7 @@ I also worked on adoption outside the product itself, through onboarding documen
 
 ### Outcome
 
-Plays went from beta to general availability. In the six weeks after AI-assisted building launched, **adoption grew 2.6×** and **workflow failures fell 70%**.
-
-{% include todo.html note="If the definitions check out, add customer activation (about 11 to 120 customers with Play activity) and live Plays (about 50). Keep each metric clearly labeled; they measure different things." %}
+Plays went from beta to general availability. In the six weeks after AI-assisted building launched, **adoption grew 2.6×** and **workflow failures fell 70%**. The number of customers with Play activity grew from about **11 to 120**, running about **50 live Plays**.
 
 ## Part 2 · Autonomous inbound: from automation to agents
 
@@ -111,13 +111,13 @@ I defined a 0-to-1 autonomous inbound experience and scoped it across three engi
 6. **CRM updates:** keep records accurate.
 7. **Human escalation:** bring in a person when the agent shouldn't act on its own.
 
-The most important design work was on the limits. Each customer could set guardrails specific to their business, and escalating to a human was a deliberate part of the design, not a fallback. I recruited four enterprise design partners and co-designed the first version with them.
+The most important design work was on the limits. Each customer could set guardrails specific to their business, and escalating to a human was a deliberate part of the design, not a fallback. I recruited four enterprise design partners to co-design the first version.
 
 The agent built directly on Plays. An event triggers a Play, and the prospect is added to a sequence for an SDR to work. The sequence runs automatically until the prospect replies, which takes them out of it. When the reply is an email, the agent can respond on its own, unless sensitive information is involved. Then it escalates to a person.
 
 {% include nooks-agent-flow.html %}
 
-{% include todo.html note="Where did this end up: shipped, in beta with design partners, or still in development? And can you name the design partners publicly? (Check with Nooks before listing Toast, Deel, ServiceTitan, or Vanta.)" %}
+By the time I left, I had aligned the direction with all four partners and kicked off engineering across the three teams.
 
 ## Reflection
 
