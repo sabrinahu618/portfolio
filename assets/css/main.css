@@ -306,8 +306,8 @@ main:focus { outline: none; }
 
 /* ---------- Case study ---------- */
 .case__header { padding-block: clamp(2rem, 5vw, 4rem) clamp(1.5rem, 4vw, 2.5rem); max-width: 72rem; }
-.case__header h1 { max-width: 22ch; }
-.case__header .lede { max-width: 60ch; margin-bottom: 1.25rem; }
+.case__header h1 { max-width: 30ch; }
+.case__header .lede { max-width: 52rem; margin-bottom: 1.25rem; }
 .case__cover { margin: 0 0 clamp(2rem, 5vw, 3.5rem); }
 .case__cover--narrow { max-width: 46rem; margin-inline: auto; }
 .case__cover figcaption { margin-top: .6rem; font-size: var(--step--1); color: var(--muted); text-align: center; }
@@ -342,7 +342,6 @@ main:focus { outline: none; }
 .figure { margin: 2rem 0; }
 .figure img { border-radius: 10px; border: 1px solid var(--line); background: #fff; width: 100%; }
 .figure figcaption { margin-top: .6rem; font-size: var(--step--1); color: var(--muted); }
-@media (min-width: 70rem) { .figure--wide { margin-right: -8rem; } }
 
 .next-project { margin-block: clamp(3rem, 7vw, 5rem); }
 .next-project a {
