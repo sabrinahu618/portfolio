@@ -50,7 +50,14 @@ That showed up in a few ways:
 - **Reliability:** workflows failed, which undermined trust in letting automation act on their behalf.
 - **Legibility:** when the AI did something unexpected, users had no easy way to see why or to tell it that it was wrong.
 
-{% include todo.html note="Add one or two specific findings from discovery: how many customers or reps you talked to, and a moment or anonymized quote that changed your thinking." %}
+### What I heard from reps
+
+I talked with roughly 100 customers: the managers who set up Plays, people on other teams, and the sales reps who were supposed to act on what Plays produced. The reps' side surprised me most. Even when a Play ran perfectly, reps often didn't act on it, for two reasons:
+
+1. **They didn't know what it was for.** Leads showed up without context, so reps didn't understand what a Play was, why it mattered, or what they were supposed to do next.
+2. **The leads weren't always ones they'd pursue, and they had no way to say so.** Reps could see when a Play surfaced low-quality or wrong leads, but nothing carried that back to the managers who could adjust it.
+
+The people building automations and the people living with their results were different people, and information only flowed one way. Fixing adoption meant closing that loop, not just making Plays easier to build.
 
 ### What we changed
 
@@ -58,11 +65,11 @@ I shifted the strategy from asking customers to configure every step themselves 
 
 - **Generation:** **AI-assisted Play building**, including a natural-language Plays Assistant. Users describe the sales process they want to automate in their own words (for example, which leads to target, how to research them, what kind of outreach to send, and which sequence to add them to), and the assistant turns that intent into a workflow.
 - **Transparency:** showing users what the AI is doing and why, so automation isn't a black box. This shipped in GA.
-- **Correction:** a way for users to reject an AI decision and explain what was wrong, so the system could be corrected rather than abandoned. We explored this, but it didn't ship in GA.
+- **Correction:** a way for users to reject an AI decision and explain what was wrong, so the system could be corrected rather than abandoned. This was my answer to the reps' second problem: a path for feedback to flow back to the people who build Plays. We explored it, but it didn't ship in GA.
 
 {% include figure.html src="/assets/img/nooks/plays-assistant.webp" alt="The Create Play screen with the Build with assistant tab selected. A text box asks 'What should this play automate?' with the example 'when an account books a meeting, alert the AE in Slack and pause my outbound to it.' Below are one-click starting points: Inbound, Closed Lost, and Job Change." width="1197" height="609" caption="Building with the assistant: describe what a Play should automate in plain language, or start from a one-click template. Image: Nooks." %}
 
-I also scoped Slack alerts to make automation visible where reps already work. A Play can now message the assigned rep or a channel directly, including outputs from earlier steps such as an agent's response, so nobody has to keep checking the product to know what ran.
+For the reps' first problem, I scoped Slack alerts to make automation visible where reps already work. A Play can now message the assigned rep or a channel directly, including outputs from earlier steps such as an agent's response, so nobody has to keep checking the product to know what ran.
 
 {% include figure.html src="/assets/img/nooks/slack-alert.webp" alt="The Plays editor with a workflow of Draft AI Email, then Add to Sequence (assigned round robin to an Inbound Lead - Demo Request sequence), then a Slack Alert step. A side panel configures the Slack Alert to send to the user assigned in the Add to Sequence step, with a message box that can include variables from earlier steps." width="1600" height="1072" caption="A Slack Alert step tells the assigned rep the moment a Play acts, using details from earlier steps. Image: Nooks." %}
 
