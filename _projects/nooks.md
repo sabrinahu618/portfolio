@@ -120,6 +120,8 @@ By the time I left, I had aligned the direction with all four partners and kicke
 
 ## Reflection
 
-{% include todo.html note="Rewrite this in your own voice. It's the strongest link to the Media Lab." %}
+**Adoption lives inside the workflow.** Unless a tool is already part of how people work, they're unlikely to adopt it, no matter how capable it is. It has to be visible where they already are. So much of my research was simply watching reps go through their regular day and figuring out why certain features never made it into their routine. The changes that mattered most, like Slack alerts and asking for a reason when a rep declines a prospect, met reps inside the workflow they already had.
 
-Both projects taught me the same lesson from opposite directions. AI only helps when it genuinely reduces the effort a person has to put in. A powerful tool that takes hard work to set up goes unused. And people only hand work to an agent they can understand and correct. Transparency, correction, and knowing when to hand off aren't features added at the end; they're what makes people willing to trust automation at all. I want to keep studying that line: when AI should act, when it should ask, and when it should step back.
+**Trust in AI isn't all or nothing.** Many sales managers were hesitant to trust AI, yet still wanted it to handle everything except the phone calls their reps make. People don't trust or distrust AI wholesale. They draw a line around the moments that feel most human and most consequential. Designing the agent's hand-off to a person was really about finding where that line sits.
+
+**Build for the root problem, not the request.** A lot of what goes into a good product isn't what customers say they want. It's the problem underneath. What are they using this for instead of other options, and why? And how do we go deeper on that? That's the question I want to keep asking, about how people actually live with the AI tools they're given.
