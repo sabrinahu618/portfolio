@@ -1,17 +1,22 @@
 ---
 title: An AI agent that knows when to hand off
 org: Nooks
-summary: Taking an AI workflow product from beta to launch, and defining an autonomous agent built to bring in a human at the right moment.
+summary: Taking Nooks' inbound workflow automation from beta to launch, and defining an autonomous agent built to bring in a human at the right moment.
 themes: [communication]
 order: 4
 featured: true
 years: May – Oct 2026
 role: Product Manager
-audience: Sales teams automating their work with AI, and the enterprise customers who need to trust it.
+audience: Sales teams responding to inbound prospects, and the enterprise customers who need to trust the AI doing that work.
 team: 3 engineering teams and 4 enterprise design partners
 methods: [Customer interviews, Workflow observation, Co-design with customers, Prototyping]
 tools: [Figma]
-cover_need: A simple diagram of the agent's decision flow (act, ask, or hand off to a human). Sketch it on paper and I'll redraw it.
+cover: /assets/img/nooks/plays-workflow.webp
+cover_width: 818
+cover_height: 750
+cover_narrow: true
+cover_alt: "A Nooks Plays workflow built from four connected steps: a trigger when an inbound prospect arrives, a Research Agent that looks up the prospect and account, a Draft AI Email step, and an Add to Sequence step, with an Add Step button below."
+cover_caption: "An inbound Play: when a prospect shows interest, AI researches them, drafts an email, and adds them to a sequence. Image: Nooks."
 highlights:
   - value: "2.6×"
     label: adoption in 6 weeks after AI-assisted building launched
@@ -25,9 +30,9 @@ highlights:
 
 ## The problem
 
-Nooks helps sales teams automate their work. Its workflow product, Plays, was powerful but hard to set up, and too many workflows failed. Customers also wanted an agent that could act on its own, but only within limits they could trust.
+Nooks helps sales teams turn inbound interest into action. Its workflow product, Plays, lets a team automate everything that happens after a prospect raises their hand: research the person and their account, draft a personalized email, and add them to a sequence while their intent is still high. Plays was powerful but hard to set up, and too many workflows failed. Customers also wanted an agent that could act on its own, but only within limits they could trust.
 
-{% include todo.html note="Check this problem framing; I inferred it from your results." %}
+{% include todo.html note="Check this framing: was 'hard to set up, too many failed workflows' the core problem you found in research? I inferred it from your results." %}
 
 ## Who it was for
 
