@@ -259,7 +259,7 @@ main:focus { outline: none; }
 .home-about .prose-width { max-width: var(--measure); }
 .home-about { padding-bottom: clamp(3rem, 7vw, 5.5rem); }
 .home-about__inner {
-  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 15rem);
+  display: grid; grid-template-columns: minmax(0, var(--measure)) minmax(0, 1fr);
   gap: clamp(1.5rem, 5vw, 4rem); align-items: center;
   padding: clamp(1.5rem, 4vw, 2.5rem);
   background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius);
