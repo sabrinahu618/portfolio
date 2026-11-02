@@ -40,6 +40,8 @@ Plays sat between a company's CRM and its sales outreach. Instead of a rep manua
 4. **Execution:** the email is sent and the prospect is enrolled in a sequence.
 5. **Follow-up:** the prospect moves into calls, emails, texts, and LinkedIn outreach.
 
+{% include figure.html src="/assets/img/nooks/plays-editor.webp" alt="The Nooks Plays editor for a draft workflow called Competitor renewal. A palette on the left lists steps to add: Trigger, AI actions (Agent, AI Prospecting, AI Email), and Condition. On the right, the workflow starts with a trigger that fires when an account's Competitor Renewal signal is triggered, followed by an AI Prospecting step set to find up to 20 prospects per account across 7 personas." width="1600" height="913" caption="The Plays editor: teams build a workflow from triggers, AI actions, and conditions. Here, a Competitor Renewal signal on an account kicks off AI prospecting. Image: Nooks." wide=true %}
+
 ### The problem: automation that asked for too much work
 
 When I joined, Plays was in beta. The idea was compelling, but customers were confused by it and adoption was low. Through customer interviews and watching sales reps do their actual work, I found that the problem wasn't demand. Customers wanted automation. **Setting up the automation was itself the hard, manual task.** A product built to eliminate busywork was asking people to do a lot of it before they saw any benefit.
