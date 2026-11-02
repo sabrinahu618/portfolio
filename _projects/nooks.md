@@ -25,8 +25,6 @@ highlights:
     label: customers with Play activity
 ---
 
-{% include todo.html note="Before publishing: confirm everything on this page is approved to be public. Also check the end date: your resume says October, your notes say September." %}
-
 I owned two connected initiatives at Nooks. The first made an existing automation product, **Plays**, something customers could actually use. The second extended it into **autonomous inbound automation**: AI agents that qualify, research, contact, and route new leads, and know when to hand off to a person. They share a product and a question (how much should people have to do, and how much should AI do on their behalf?), but their outcomes are separate, so I've kept them apart below.
 
 ## Part 1 · Plays: making automation easy to build
