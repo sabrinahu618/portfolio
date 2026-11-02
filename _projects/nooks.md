@@ -8,7 +8,7 @@ featured: true
 years: May – Oct 2026
 role: Product Manager
 audience: Sales teams who wanted to automate repetitive prospecting work but struggled to set up automations themselves.
-team: The Plays engineering team, with input from other teams; the inbound agent also involved 4 enterprise design partners.
+team: The Plays engineering team; the inbound agent also involved 4 enterprise design partners.
 methods: [Customer interviews, Sales rep observation, Funnel analysis, Co-design with design partners, Customer enablement]
 tools: [Figma, Salesforce]
 cover: /assets/img/nooks/plays-editor.webp
