@@ -57,12 +57,10 @@ That showed up in a few ways:
 I shifted the strategy from asking customers to configure every step themselves to letting AI help them build. I think about it in three parts:
 
 - **Generation:** **AI-assisted Play building**, including a natural-language Plays Assistant. Users describe the sales process they want to automate in their own words (for example, which leads to target, how to research them, what kind of outreach to send, and which sequence to add them to), and the assistant turns that intent into a workflow.
-- **Transparency:** showing users what the AI is doing and why, so automation isn't a black box.
-- **Correction:** giving users a way to reject an AI decision and explain what was wrong, so the system can be corrected rather than abandoned.
+- **Transparency:** showing users what the AI is doing and why, so automation isn't a black box. This shipped in GA.
+- **Correction:** a way for users to reject an AI decision and explain what was wrong, so the system could be corrected rather than abandoned. We explored this, but it didn't ship in GA.
 
 {% include figure.html src="/assets/img/nooks/plays-assistant.webp" alt="The Create Play screen with the Build with assistant tab selected. A text box asks 'What should this play automate?' with the example 'when an account books a meeting, alert the AE in Slack and pause my outbound to it.' Below are one-click starting points: Inbound, Closed Lost, and Job Change." width="1197" height="609" caption="Building with the assistant: describe what a Play should automate in plain language, or start from a one-click template. Image: Nooks." %}
-
-{% include todo.html note="Confirm whether transparency and correction shipped in GA, or were designed or scoped. Right now they read as design intent." %}
 
 I also scoped Slack alerts to make automation visible where reps already work. A Play can now message the assigned rep or a channel directly, including outputs from earlier steps such as an agent's response, so nobody has to keep checking the product to know what ran.
 
