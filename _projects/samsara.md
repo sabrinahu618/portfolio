@@ -65,8 +65,6 @@ The capability was there. What was missing was a way in. So I gave customers a b
 
 After that change, we enabled **about 50 more customers in the following two weeks**.
 
-{% include todo.html note="Confirm the timeline: did the conference launch come before or after the beta? Right now the page treats them as separate milestones." %}
-
 ### Deciding when an AI assistant is good enough
 
 Samsara's AI Driver Assistant answers questions for drivers on the road. A wrong or confusing answer there has real consequences, and "it looks fine in the demo" isn't a standard.
@@ -77,7 +75,7 @@ I built an LLM evaluation framework for the assistant: quality rubrics that defi
 
 ## Outcome
 
-The new messaging platform launched at Samsara's annual conference, in front of more than 5,000 attendees, and grew past its first beta of about 15 to 20 customers, with about 50 more enabled in the two weeks after onboarding defaults shipped. The messaging API unlocked more than **$300K in annual recurring revenue** from integrations.
+The beta grew from its first 15 to 20 customers, with about 50 more enabled in the two weeks after onboarding defaults shipped. With that foundation in place, the new messaging platform launched at Samsara's annual conference, in front of more than 5,000 attendees. The messaging API unlocked more than **$300K in annual recurring revenue** from integrations.
 
 ## Reflection
 
