@@ -11,7 +11,11 @@ audience: Truck drivers on the road and the dispatchers and fleet teams who supp
 team: Engineering, design, and partner teams
 methods: [Prototyping, LLM evaluation, API design]
 tools: [Figma, Figma Make, LLM evaluation rubrics, Automated regression tests]
-cover_need: A diagram works well if screenshots are confidential, for example how a message travels from driver to dispatcher. I can draw it from your notes.
+cover: /assets/img/samsara/inbox-thread.webp
+cover_width: 1600
+cover_height: 873
+cover_alt: "The Samsara dashboard's Messages view. A list of conversations on the left includes Safety Team Updates, Admins, Northeast Region (with a severe weather warning), and All Drivers (a reminder to verify logs). The open Safety Team Updates channel shows mentions, replies, a thumbs-up reaction, a Proof of Delivery PDF, and a photo of a loading dock."
+cover_caption: "The new messaging experience in the Samsara dashboard: channels for teams, regions, and all drivers, with replies, reactions, files, and photos. Demo data."
 highlights:
   - value: "800K"
     label: monthly active drivers on the platform
@@ -41,7 +45,11 @@ I led the 0-to-1 development of a messaging and calling platform for 800,000 mon
 
 I also designed the communications API layer underneath it (contracts, routing, and identity) so partners could build on top of it.
 
-{% include figure.html need="A Figma Make prototype screen, or a simple diagram of the messaging flow." %}
+{% include figure.html src="/assets/img/samsara/compose.webp" alt="A Compose a message dialog over the Messages view, with a recipient menu offering three options: Driver, Tag, and User." width="1600" height="872" caption="Composing a message: send to one driver, everyone with a tag such as a region or team, or another user." %}
+
+{% include figure-pair.html src1="/assets/img/samsara/driver-thread.webp" alt1="The Driver App in dark mode showing the Safety Team Updates channel, with messages from teammates, an @mention, and the driver's reply, Hello team, marked as read." src2="/assets/img/samsara/driver-attach.webp" alt2="The Driver App's attachment menu with four options: Take a photo, Take a video, Photo library, and Files." width="701" height="928" caption="The driver's side in the Driver App: reply in a channel, or share a photo, video, or file from the road." %}
+
+{% include figure.html need="A Figma Make prototype screen, if you can share one, to show how you aligned leadership." %}
 
 ### Deciding when an AI assistant is good enough
 
