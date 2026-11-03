@@ -1,16 +1,16 @@
 ---
 title: Keeping 800,000 drivers connected
 org: Samsara
-summary: Leading a 0-to-1 messaging and calling platform for 800,000 drivers, and building the framework that decides when an AI assistant's answers are good enough to ship.
+summary: Rebuilding how drivers, dispatchers, and fleet admins talk to each other, and learning in beta that a platform is only as good as what customers can actually set up.
 themes: [communication]
 order: 3
 featured: true
 years: Aug 2025 – May 2026
 role: Associate Product Manager
-audience: Truck drivers on the road and the dispatchers and fleet teams who support them.
-team: Engineering, design, and partner teams
-methods: [Prototyping, LLM evaluation, API design]
-tools: [Figma, Figma Make, LLM evaluation rubrics, Automated regression tests]
+audience: Truck drivers on the road, and the dispatchers, safety managers, and admins who coordinate with them.
+team: 4 engineers, plus design, mobile, platform, and go-to-market partners
+methods: [Customer calls, App review analysis, Usage data analysis, Prototyping, Beta rollout, LLM evaluation]
+tools: [Figma, Figma Make, Databricks, SQL, Mixpanel]
 cover: /assets/img/samsara/inbox-thread.webp
 cover_width: 1600
 cover_height: 873
@@ -19,50 +19,66 @@ cover_caption: "The new messaging experience in the Samsara dashboard: channels 
 highlights:
   - value: "800K"
     label: monthly active drivers on the platform
-  - value: "5,000+"
-    label: attendees at the launch, Samsara's annual conference
+  - value: "~50"
+    label: more customers enabled in the two weeks after the onboarding fix
   - value: "$300K+"
     label: in annual recurring revenue unlocked by integrations
 ---
 
-{% include todo.html note="Double-check that everything here is approved to be public. It only uses what's on your resume." %}
-
 ## The problem
 
-Drivers spend their days on the road, away from the dispatchers and fleet teams they depend on.
+Samsara's existing messaging was built around a single pattern: one driver, chatting with all of their admins, in text only. That isn't how fleets actually communicate. Dispatchers need to reach a whole region before a storm. Safety teams need to send announcements no one can reply-all to. Drivers need to share photos and files, like proof of delivery, and sometimes need to message hands-free.
 
-{% include todo.html note="One or two sentences on what was broken before (for example, personal phones or scattered tools) and why it mattered for safety or the job." %}
+So customers worked around it, coordinating across text, email, Slack, WhatsApp, Teams, and phone calls. Communication between drivers, dispatchers, and admins was fragmented across all of those tools.
 
 ## Who it was for
 
-Drivers who need a quick, safe way to reach their team while working, and the fleet teams on the other end of the conversation.
+Drivers who need a quick, safe way to reach their team while working, and the dispatchers, safety managers, and admins on the other end of the conversation.
 
 ## Process
 
-### A messaging platform, from zero to launch
+### Research: listening to fleets and drivers
 
-I led the 0-to-1 development of a messaging and calling platform for 800,000 monthly active drivers. To get leadership aligned on a new direction quickly, I prototyped the experience in Figma Make, so people could click through it instead of reading a spec.
+I led **15 customer calls** with fleets to understand how they really used messaging, from roadside-inspection blitzes to weekly safety tips and company announcements. The same priorities kept coming up: rich media, acknowledgment that a message was read, in-cab audio, and keeping message history for 6 to 12 months.
 
-I also designed the communications API layer underneath it (contracts, routing, and identity) so partners could build on top of it.
+To hear from drivers directly, I wrote a biweekly Driver App feedback report, analyzing **6,500 app reviews** to surface the most common pain points alongside real driver quotes. I also used usage data to find the fleets that relied on messaging most heavily, and recruited them as early beta customers.
+
+### Design and build: from one chat to a platform
+
+I owned the 0-to-1 messaging and calling platform with a team of four engineers. To get leadership aligned on a new direction quickly, I prototyped the experience in Figma Make, so people could click through it instead of reading a spec. The platform added:
+
+- **Channels and group conversations**, for teams, regions, and the whole fleet
+- **Membership and permission controls**, including read-only channels for announcements
+- **Rich media**: photos, videos, and files
+- **Voice and hands-free messaging** for drivers on the road
+- **Messaging APIs** (contracts, routing, and identity) so partners could build on top of it
 
 {% include figure.html src="/assets/img/samsara/compose.webp" alt="A Compose a message dialog over the Messages view, with a recipient menu offering three options: Driver, Tag, and User." width="1600" height="872" caption="Composing a message: send to one driver, everyone with a tag such as a region or team, or another user." %}
 
 {% include figure-pair.html src1="/assets/img/samsara/driver-thread.webp" alt1="The Driver App in dark mode showing the Safety Team Updates channel, with messages from teammates, an @mention, and the driver's reply, Hello team, marked as read." src2="/assets/img/samsara/driver-attach.webp" alt2="The Driver App's attachment menu with four options: Take a photo, Take a video, Photo library, and Files." width="701" height="928" caption="The driver's side in the Driver App: reply in a channel, or share a photo, video, or file from the road." %}
 
-{% include figure.html need="A Figma Make prototype screen, if you can share one, to show how you aligned leadership." %}
+### What went wrong in beta
+
+We enabled the first beta for about 15 to 20 customers, and it didn't go the way we hoped. The platform could do far more than the old chat, but that was the problem: the new interface and all of its configuration options overwhelmed customers, and some asked us to roll back.
+
+The capability was there. What was missing was a way in. So I added **self-serve defaults to onboarding**. Every fleet now starts with sensible default channels, like a company-wide announcements channel and a direct line from each driver to their admins, so drivers know immediately who to message and admins can adjust from a working setup instead of a blank one.
+
+After that change, we enabled **about 50 more customers in the following two weeks**.
+
+{% include todo.html note="Confirm the timeline: did the conference launch come before or after the beta? Right now the page treats them as separate milestones." %}
 
 ### Deciding when an AI assistant is good enough
 
 Samsara's AI Driver Assistant answers questions for drivers on the road. A wrong or confusing answer there has real consequences, and "it looks fine in the demo" isn't a standard.
 
-I built an LLM evaluation framework for the assistant: quality rubrics that defined what a good answer looks like for a driver, and automated regression tests to catch it when a change made the answers worse.
+I built an LLM evaluation framework for the assistant: quality rubrics that defined what a good answer looks like for a driver, and automated regression tests to catch it when a change made the answers worse. It moved the team from anecdotes toward measuring quality systematically.
 
-{% include todo.html note="Give one example of a rubric dimension (for example, safe to read while driving, or accurate to fleet policy), and how the framework changed a launch decision." %}
+{% include todo.html note="Optional: give one example of a rubric dimension (for example, safe to read while driving, or accurate to fleet policy)." %}
 
 ## Outcome
 
-The platform launched at Samsara's annual conference, in front of more than 5,000 attendees. The API layer unlocked more than **$300K in annual recurring revenue** from integrations.
+The new messaging platform launched at Samsara's annual conference, in front of more than 5,000 attendees, and grew past its first beta of about 15 to 20 customers, with about 50 more enabled in the two weeks after onboarding defaults shipped. The messaging API unlocked more than **$300K in annual recurring revenue** from integrations.
 
 ## Reflection
 
-{% include todo.html note="Write this yourself. Suggested angle: an evaluation rubric encodes a judgment about what's good for the person on the other end. What would it mean to evaluate AI by its effect on people, not just the quality of its answers?" %}
+{% include todo.html note="Write this in your own words. Suggested angle: the beta taught you the same lesson as Nooks from a different side. More capability made the product harder to adopt, and the fix was a better starting point, not more features. Defaults are design decisions about how people should communicate." %}
