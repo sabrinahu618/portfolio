@@ -61,7 +61,7 @@ I owned the 0-to-1 messaging and calling platform with a team of four engineers.
 
 We enabled the first beta for about 15 to 20 customers, and it didn't go the way we hoped. The platform could do far more than the old chat, but that was the problem: the new interface and all of its configuration options overwhelmed customers, and some asked us to roll back.
 
-The capability was there. What was missing was a way in. So I added **self-serve defaults to onboarding**. Every fleet now starts with sensible default channels, like a company-wide announcements channel and a direct line from each driver to their admins, so drivers know immediately who to message and admins can adjust from a working setup instead of a blank one.
+The capability was there. What was missing was a way in. So I gave customers a better starting point in two ways. I added **self-serve defaults to onboarding**, and I led onboarding sessions that walked fleets through the new messaging experience and gathered their feedback. Every fleet now starts with sensible default channels, like a company-wide announcements channel and a direct line from each driver to their admins, so drivers know immediately who to message and admins can adjust from a working setup instead of a blank one.
 
 After that change, we enabled **about 50 more customers in the following two weeks**.
 
@@ -81,4 +81,6 @@ The new messaging platform launched at Samsara's annual conference, in front of 
 
 ## Reflection
 
-{% include todo.html note="Write this in your own words. Suggested angle: the beta taught you the same lesson as Nooks from a different side. More capability made the product harder to adopt, and the fix was a better starting point, not more features. Defaults are design decisions about how people should communicate." %}
+More capability made the product harder to adopt. The new platform could do far more than the old chat, but every new option was one more decision a busy fleet admin had to make before their drivers could send a single message. Adding features wouldn't have fixed that. A better starting point did: defaults that worked out of the box, and onboarding sessions that showed customers how the platform fit the way their fleet already communicated.
+
+I learned the same lesson again at Nooks, from a different side. Whether it's a messaging platform or an AI workflow builder, the setup is part of the product. Defaults are design decisions about how people should communicate, and getting them right matters as much as anything you build on top.
