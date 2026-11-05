@@ -345,6 +345,8 @@ main:focus { outline: none; }
 .figure__zoom:hover img { border-color: var(--accent); }
 .figure__pair { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; max-width: 34rem; margin-inline: auto; }
 .figure--pair figcaption { text-align: center; }
+.figure--narrow { max-width: 24rem; margin-inline: auto; }
+.figure--narrow figcaption { text-align: center; }
 .figure figcaption { margin-top: .6rem; font-size: var(--step--1); color: var(--muted); }
 
 .next-project { margin-block: clamp(3rem, 7vw, 5rem); }

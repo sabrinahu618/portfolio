@@ -1,7 +1,7 @@
 ---
 title: Solar Cap
 org: Solar Capital · MIT D-Lab & Urban Risk Lab
-summary: A solar-powered UVC cap that turns any drink can into a water purifier and phone charger, taken from a high-school science fair to a disaster-relief marketplace.
+summary: A solar-powered UVC water purifier that started as a high-school science fair project, became a stackable emergency kit at MIT, and found a home in a disaster-relief marketplace.
 themes: [impact]
 order: 1
 featured: true
@@ -11,10 +11,11 @@ audience: Families who lose safe tap water and power after hurricanes and other 
 team: Solo in high school; at MIT, I led a team of mechanical and electrical engineers across D-Lab and the Urban Risk Lab.
 methods: [Engineering design, Prototyping, Water-quality testing, Benchmarking, Partnerships]
 tools: [Arduino, Custom PCB, Resin 3D printing, UVC LEDs, Colilert, Petrifilm, Quanti-Tray]
-cover: /assets/img/solar-cap/cover.webp
+cover: /assets/img/solar-cap/kit-cover.webp
 cover_width: 1600
-cover_height: 888
-cover_alt: Close-up of the Solar Cap prototype, a black cylindrical cap with a USB cable plugged into its side, sitting on a clear water bottle.
+cover_height: 1067
+cover_alt: "The final Solar Cap emergency kit, a stack of dark blue 3D-printed layers with a carry loop on top, a USB-C port, and a glowing blue ring light, sitting next to a glass jar of water."
+cover_caption: "Where it ended up: the stackable emergency kit from MIT's Urban Risk Lab."
 highlights:
   - value: "99.46%"
     label: of pathogens eliminated in 4 minutes, in early tests on spring water
@@ -115,7 +116,9 @@ At MIT's Urban Risk Lab, Solar Cap grew from a single cap into a **stackable eme
 
 The layered design addresses what the Charles River tests showed: one UVC LED alone isn't enough for heavily contaminated water, but chlorine, filtration, and UVC together give several lines of defense. And the pulsing ring light makes it obvious, without guesswork, when the water is ready.
 
-{% include figure.html need="A photo or video still of the stackable kit, ideally with the layers separated." %}
+{% include figure.html src="/assets/img/solar-cap/kit-layers.webp" alt="The kit taken apart on a table: the assembled UVC layer with its carry loop and glowing blue ring light on the left, an empty light-blue filter tray in the middle, and a tray holding a blister pack of chlorine tablets on the right." width="1600" height="925" caption="The kit, separated: the UVC layer with its glowing ring light, the filter layer, and the chlorine tablet layer." %}
+
+{% include figure.html src="/assets/img/solar-cap/kit-uvc.webp" alt="Looking up into the UVC layer held in a hand: the UVC LED glows at the center, with the electronics visible through the openings and blue light filling the ring around it." width="900" height="900" caption="Looking into the UVC layer: the LED at the center, and the ring light glowing around it." narrow=true %}
 
 ### Where it ended up
 

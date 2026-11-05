@@ -6,9 +6,10 @@
   {% include figure.html alt="" caption="" need="Photo of students presenting their websites" %}
 
   Images open full size when clicked, so detailed screenshots stay readable.
+  Add narrow=true for square or tall photos so they don't fill the whole column.
 {%- endcomment -%}
 {%- if include.src and include.src != "" -%}
-<figure class="figure{% if include.wide %} figure--wide{% endif %}">
+<figure class="figure{% if include.wide %} figure--wide{% endif %}{% if include.narrow %} figure--narrow{% endif %}">
   <a class="figure__zoom" href="{{ include.src | relative_url }}" title="Open full-size image"><img src="{{ include.src | relative_url }}" alt="{{ include.alt }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy" decoding="async"></a>
   {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
 </figure>
