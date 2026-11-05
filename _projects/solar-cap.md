@@ -107,18 +107,28 @@ Then we ran the most rigorous test, a Quanti-Tray that estimates how many bacter
 
 Bringing the cap to the public raised its own questions. I researched the testing standards and regulatory steps needed for public use, and learned from MIT's Technology Licensing Office that MIT couldn't patent the cap, since it didn't own it. Working with a manufacturer would mean an NDA instead, which the BU Law Clinic's free legal services could help with. I also built a relationship with the CLEO Institute, a Florida climate nonprofit.
 
+### At the Urban Risk Lab: a stackable emergency kit
+
+At MIT's Urban Risk Lab, Solar Cap grew from a single cap into a **stackable emergency kit**. Instead of relying on one method, it combines three, in layers you screw on and off depending on what you need:
+
+{% include solar-cap-layers.html %}
+
+The layered design addresses what the Charles River tests showed: one UVC LED alone isn't enough for heavily contaminated water, but chlorine, filtration, and UVC together give several lines of defense. And the pulsing ring light makes it obvious, without guesswork, when the water is ready.
+
+{% include figure.html need="A photo or video still of the stackable kit, ideally with the layers separated." %}
+
 ### Where it ended up
 
 I transitioned the product to the **Bosai Plus** disaster-relief marketplace.
 
 {% include video.html id="Ddm0hCcHDqw" title="Solar Cap: what the project became" caption="A video I made about what Solar Cap eventually became." %}
 
-{% include todo.html note="Tell me what the video shows and what moving to Bosai Plus meant in practice (listed for sale, piloted, or licensed?), and I'll write this section properly. Also: what did the Urban Risk Lab contribute?" %}
+{% include todo.html note="Tell me what the video shows and what moving to Bosai Plus meant in practice (listed for sale, piloted, or licensed?), and I'll write this section properly." %}
 
 ## Outcome
 
 - **In high school:** a working, self-contained prototype that purified spring water in minutes and charged a phone, for about **$44** in parts.
-- **At MIT:** a team-built second version with a custom circuit board and 3D-printed case, and honest lab results that showed exactly what the next version needs.
+- **At MIT:** a team-built second version with a custom circuit board and 3D-printed case, honest lab results that showed what the next version needed, and a stackable emergency kit at the Urban Risk Lab that layers chlorine, filtration, and UVC.
 - **Recognition:** Regeneron ISEF 2020 finalist, Spellman HV Clean Tech Top 10 worldwide, MIT IDEAS Social Innovation Challenge finalist, MIT ESG-PKG Social Impact Fellowship, and the USAID Science Champion Award, among others.
 
 ## Reflection
