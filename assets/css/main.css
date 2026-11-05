@@ -396,6 +396,41 @@ main:focus { outline: none; }
 .flow__branch-label { position: absolute; top: -1.3rem; left: calc(50% + 8px); font-size: .8rem; font-weight: 700; color: var(--muted); }
 .flow figcaption { margin-top: .75rem; font-size: var(--step--1); color: var(--muted); }
 
+/* ---------- Bar chart (case studies) ---------- */
+.bars { margin: 2rem 0; padding: 1.25rem clamp(1rem, 3vw, 1.5rem); background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.bars__title { margin: 0; font-weight: 700; }
+.bars__sub { margin: .15rem 0 1.1rem; font-size: var(--step--1); color: var(--muted); }
+.bars__list { list-style: none; margin: 0; padding: 0 !important; display: grid; gap: .7rem; }
+.bars__row {
+  position: relative; display: grid; grid-template-columns: minmax(0, 13rem) minmax(0, 1fr); gap: .25rem 1rem; align-items: center;
+  margin: 0 !important; padding: .2rem .35rem; border-radius: 8px;
+}
+.bars__row:hover, .bars__row:focus-visible { background: var(--sand); }
+.bars__label { font-size: var(--step--1); color: var(--ink); line-height: 1.3; }
+.bars__track { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+.bars__bar { display: block; height: 1.1rem; width: calc(var(--v) / 12 * 85%); min-width: 4px; background: var(--impact); border-radius: 0 4px 4px 0; }
+.bars__value { font-size: var(--step--1); font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.bars__tip {
+  position: absolute; right: .35rem; top: 50%; transform: translateY(-50%);
+  padding: .2rem .55rem; border-radius: 6px; background: var(--ink); color: var(--paper); font-size: .8rem;
+  opacity: 0; pointer-events: none; transition: opacity .15s;
+}
+.bars__row:hover .bars__tip, .bars__row:focus-visible .bars__tip { opacity: 1; }
+.bars__table { margin-top: 1rem; font-size: var(--step--1); }
+.bars__table summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.bars__table table { width: 100%; margin-top: .6rem; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.bars__table th, .bars__table td { padding: .35rem .4rem; border-bottom: 1px solid var(--line); text-align: right; }
+.bars__table th[scope="row"], .bars__table thead th:first-child { text-align: left; font-weight: 600; }
+.bars figcaption { margin-top: .8rem; font-size: var(--step--1); color: var(--muted); }
+@media (max-width: 30rem) {
+  .bars__row { grid-template-columns: 1fr; }
+  .bars__table { overflow-x: auto; }
+}
+
+/* ---------- Video embed ---------- */
+.video__frame { position: relative; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: var(--ink); }
+.video__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
 /* ---------- Work page archive ---------- */
 .archive { margin-top: clamp(3.5rem, 8vw, 6rem); }
 .archive__intro { color: var(--muted); }

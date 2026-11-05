@@ -1,0 +1,10 @@
+{%- comment -%}
+  Embedded YouTube video (privacy-enhanced, loads only when scrolled to).
+  {% include video.html id="Ddm0hCcHDqw" title="What the video shows" caption="Optional caption" %}
+{%- endcomment -%}
+<figure class="figure video">
+  <div class="video__frame">
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ include.id }}?rel=0" title="{{ include.title }}" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

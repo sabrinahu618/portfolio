@@ -1,0 +1,40 @@
+<figure class="bars">
+  <p class="bars__title">Average bacterial colonies per test, Charles River water</p>
+  <p class="bars__sub">Fewer is better. Four Petrifilm samples per condition, across two test days.</p>
+  <ul class="bars__list">
+    <li class="bars__row" tabindex="0" style="--v: 12">
+      <span class="bars__label">No treatment (control)</span>
+      <span class="bars__track"><span class="bars__bar"></span><span class="bars__value">12</span></span>
+      <span class="bars__tip" role="tooltip">Samples: 20, 12, 10, 6</span>
+    </li>
+    <li class="bars__row" tabindex="0" style="--v: 8.75">
+      <span class="bars__label">Commercial UVC bottle, 3 min</span>
+      <span class="bars__track"><span class="bars__bar"></span><span class="bars__value">8.75</span></span>
+      <span class="bars__tip" role="tooltip">Samples: 12, 10, 2, 11</span>
+    </li>
+    <li class="bars__row" tabindex="0" style="--v: 3.75">
+      <span class="bars__label">Solar Cap, 5 min</span>
+      <span class="bars__track"><span class="bars__bar"></span><span class="bars__value">3.75</span></span>
+      <span class="bars__tip" role="tooltip">Samples: 4, 1, 5, 5</span>
+    </li>
+    <li class="bars__row" tabindex="0" style="--v: 1.25">
+      <span class="bars__label">Solar Cap, 10 min</span>
+      <span class="bars__track"><span class="bars__bar"></span><span class="bars__value">1.25</span></span>
+      <span class="bars__tip" role="tooltip">Samples: 2, 0, 2, 1</span>
+    </li>
+  </ul>
+  <details class="bars__table">
+    <summary>Show the data</summary>
+    <table>
+      <caption class="visually-hidden">Colony counts per Petrifilm sample (E. coli plus other bacteria)</caption>
+      <thead><tr><th scope="col">Condition</th><th scope="col">Sample 1</th><th scope="col">Sample 2</th><th scope="col">Sample 3</th><th scope="col">Sample 4</th><th scope="col">Average</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">No treatment (control)</th><td>20</td><td>12</td><td>10</td><td>6</td><td>12</td></tr>
+        <tr><th scope="row">Commercial UVC bottle, 3 min</th><td>12</td><td>10</td><td>2</td><td>11</td><td>8.75</td></tr>
+        <tr><th scope="row">Solar Cap, 5 min</th><td>4</td><td>1</td><td>5</td><td>5</td><td>3.75</td></tr>
+        <tr><th scope="row">Solar Cap, 10 min</th><td>2</td><td>0</td><td>2</td><td>1</td><td>1.25</td></tr>
+      </tbody>
+    </table>
+  </details>
+  <figcaption>Counts include E. coli and other bacteria. A small sample, and the treatment times differ, so this shows a trend, not a head-to-head verdict.</figcaption>
+</figure>
