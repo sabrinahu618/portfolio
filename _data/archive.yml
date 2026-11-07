@@ -38,3 +38,7 @@
   kind: Embedded systems
   line: Siren, light, and location-sharing alert device built on a microcontroller.
   url: https://608dev-2.net/sandbox/sc/team63/finalreport/finalreport.md.html
+- title: iCivics
+  year: 2024
+  kind: User research
+  line: Interviewed 10 stakeholders and found accessibility gaps in PDF classroom readings for a platform used by 9M+ students; prototyped a digital reader.

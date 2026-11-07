@@ -3,7 +3,7 @@ title: Keeping 800,000 drivers connected
 org: Samsara
 summary: Rebuilding how drivers, dispatchers, and fleet admins talk to each other, and learning in beta that a platform is only as good as what customers can actually set up.
 themes: [communication]
-order: 3
+order: 2
 featured: true
 years: Aug 2025 – May 2026
 role: Associate Product Manager

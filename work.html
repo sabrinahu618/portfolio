@@ -11,19 +11,34 @@ description: Case studies in human-centered design, research, teaching, and AI p
     <p class="lede">Each case study covers the problem, who it was for, how I approached the research, design, and building, and what came of it.</p>
   </header>
 
+  {%- assign projects = site.projects | sort: "order" -%}
+  {%- assign deep = projects | where_exp: "p", "p.format != 'short'" -%}
+  {%- assign short = projects | where: "format", "short" -%}
   <section aria-labelledby="case-studies-title">
-    <h2 id="case-studies-title" class="visually-hidden">Case studies</h2>
+    <h2 id="case-studies-title" class="section-title">Case studies</h2>
+    <p class="archive__intro">In-depth stories from research to launch.</p>
     <div class="card-grid">
-      {%- assign projects = site.projects | sort: "order" -%}
-      {%- for pr in projects -%}
+      {%- for pr in deep -%}
         {% include project-card.html project=pr %}
       {%- endfor -%}
     </div>
   </section>
 
+  {%- if short.size > 0 %}
+  <section class="work-short" aria-labelledby="short-title">
+    <h2 id="short-title" class="section-title">Shorter projects</h2>
+    <p class="archive__intro">Research, teaching, and design work in brief.</p>
+    <div class="card-grid">
+      {%- for pr in short -%}
+        {% include project-card.html project=pr %}
+      {%- endfor -%}
+    </div>
+  </section>
+  {%- endif %}
+
   <section class="archive" aria-labelledby="archive-title">
     <h2 id="archive-title" class="section-title">Earlier work</h2>
-    <p class="archive__intro">Class projects, hackathons, short films, and lab work from my time at MIT.</p>
+    <p class="archive__intro">Class projects, hackathons, short films, and research.</p>
     <ul class="archive__list">
       {%- for a in site.data.archive -%}
       <li>

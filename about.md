@@ -20,7 +20,7 @@ My love for technology and problem-solving took off with my first invention: a s
 
 At MIT I studied **Media Studies and Computer Science** (Course 21E), because I didn't want to choose between understanding people and building for them. Classes like *Learning, Media & Technology* and *Imagination, Computation & Expression* sat next to *Artificial Intelligence* and *Human-Centered Design*, and the overlap became my home.
 
-Teaching made it concrete. I tutored about 500 beginners in MIT's intro Python courses. At [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK, I designed and taught a two-week web development course for 24 students who had never coded, and every one of them launched a website. I also studied learning from the research side at [iCivics]({{ '/work/icivics/' | relative_url }}), interviewing stakeholders about why PDF-based classroom readings shut some students out.
+Teaching made it concrete. I tutored about 500 beginners in MIT's intro Python courses. At [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK, I designed and taught a two-week web development course for 24 students who had never coded, and every one of them launched a website. I also studied learning from the research side at iCivics, interviewing stakeholders about why PDF-based classroom readings shut some students out.
 
 ## Designing for connection
 

@@ -1,62 +1,47 @@
 ---
 title: A home base for exiled Ukrainian scientists
 org: MIT Digital Humanities Lab
-summary: Interviewing scientists scattered across 15 countries by war, then co-designing and building the platform that kept 224 of them connected.
+summary: Designing a platform that helps Ukrainian scientists scattered by the war find each other, keep collaborating, and stay connected to science in Ukraine.
 themes: [communication, impact]
-order: 2
+order: 4
 featured: true
+format: short
 years: Feb–May 2023
-role: Design engineer
-audience: Ukrainian scientists displaced by the war and living in exile, who had lost their labs, institutions, and day-to-day colleagues.
-team: Cross-functional team at the MIT Digital Humanities Lab
-methods: [User interviews, Co-design, Prototyping, Full-stack development]
-tools: [Django, Bootstrap, Figma]
-cover_need: A screenshot of the platform (blur names if needed), or a photo of the team or a working session.
+role: Designer
+audience: Ukrainian scientists displaced by the war, at home and abroad, and the Ukrainian ministry office working to support them.
+team: An MIT Digital Humanities Lab team, advised by Professor Elizabeth Wood (MIT History), with partners at Ukraine's Ministry of Education and Science
+methods: [User interviews, Information architecture, UI design, Prototyping]
+tools: [Figma, Django, Bootstrap]
+cover: /assets/img/dh-lab/mockups.webp
+cover_width: 1806
+cover_height: 1308
+cover_alt: "An overview of about 15 page designs for the platform in blue and yellow: a home page with a mission statement and upcoming events, news and event pages, a network directory, a scholar directory with filters, a map of scholars across Europe, member stories, career advice, and several screens of a find-a-mentor flow."
+cover_caption: "The screens I designed: home, news, events, a network and scholar directory, a map of scholars, member stories, and a mentorship flow."
 highlights:
   - value: "16"
     label: scientists interviewed in 15 countries
   - value: "224"
     label: scientists served by the platform
+links:
+  - label: Ukrainian Science Diaspora site
+    url: https://ukrdiaspora.nauka.gov.ua/en/
 ---
 
 ## The problem
 
-When Russia's full-scale invasion forced Ukrainian scientists to flee, they didn't only lose their homes. They lost their labs, their institutions, and the everyday conversations that research depends on. They ended up scattered across dozens of countries, and the community that held their work together was broken apart.
+Before Russia's full-scale invasion, Ukraine had more than 60,000 researchers. Many have since been displaced inside the country or forced abroad, and with research infrastructure badly damaged, many labs and research centers can no longer operate. Ukraine's Ministry of Education and Science launched the Ukrainian Science Diaspora initiative to stay connected with these scientists, support them, and help them eventually return to Ukraine and Ukraine-based programs.
 
-## Who it was for
+## What we built
 
-Exiled Ukrainian scientists rebuilding their careers abroad. They needed to find one another, keep collaborating, and stay connected to Ukrainian science while living in many different places, languages, and institutions.
+Our team built for the ministry's Scholar Support Office, which runs the initiative with the Young Scientists Council. We took on two jobs:
 
-{% include todo.html note="Add the partner organization if there was one, and any detail about who the scientists were (fields, career stages)." %}
+1. **A communication platform** where scientists in the diaspora could network and collaborate with each other and with colleagues still in Ukraine.
+2. **A database and interactive map** of scholars who had left Ukraine, so people could find potential collaborators.
 
-## Process
+## What I did
 
-### Research: listening first
-
-Before designing anything, I interviewed **16 exiled scientists living in 15 countries** to understand what they had lost and what they needed most.
-
-{% include todo.html note="What did you hear? Two or three specific findings, ideally with a short paraphrased quote, are the strongest thing you can add here. For example: what they used before, what didn't work, and what surprised you." %}
-
-### Design: co-designing with the community
-
-We scoped the platform directly from those conversations and co-designed it with a cross-functional team. Alongside tools for collaboration, we built a mapping toolkit that tracked where scientists had been displaced, so the community could see itself and people could find colleagues nearby.
-
-{% include figure.html need="An early sketch, wireframe, or Figma frame, ideally next to the final screen." %}
-
-### Build
-
-I helped build the platform in Django and Bootstrap.
-
-{% include todo.html note="Which parts did you personally build or own (profiles, search, the map)? One or two sentences." %}
-
-{% include figure.html need="A screenshot of the displacement map or main directory." wide=true %}
+I started by interviewing **16 exiled scientists living in 15 countries** about what they needed after war and displacement. Then I designed the platform's screens: a home page and mission, news and events, a directory of scholars and organizations with filters, a map of where scholars had settled, member stories, career advice, and a flow for finding a mentor. Our team built the platform in Django and Bootstrap.
 
 ## Outcome
 
-The platform launched and served **224 scientists**.
-
-{% include todo.html note="Is it still running? Any feedback from scientists, or collaborations that came out of it?" %}
-
-## Reflection
-
-{% include todo.html note="Draft in your own words. Suggested angle: what it means to design a communication tool for a community in crisis, such as trust, language, and the difference between connecting people and keeping them connected." %}
+The platform served **224 scientists**, giving the ministry a way to keep a scattered research community in touch with each other and with Ukraine.

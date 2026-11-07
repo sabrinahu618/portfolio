@@ -3,8 +3,9 @@ title: Everyone ships a website
 org: Haileybury · Hertford, UK
 summary: Designing and teaching a two-week web development course for 24 international students who had never written code, and every one of them launched a website.
 themes: [learning]
-order: 6
+order: 5
 featured: true
+format: short
 years: Summer 2023
 role: Design & Technology Research Fellow
 audience: 24 international students with no computer science background.

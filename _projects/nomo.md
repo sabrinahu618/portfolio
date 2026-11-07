@@ -3,8 +3,9 @@ title: Teens, phones, and the pull of the feed
 org: NOMO
 summary: Researching youth social media addiction with 110+ students, then testing reward mechanics at a Snapchat-backed startup.
 themes: [impact, communication]
-order: 5
+order: 6
 featured: true
+format: short
 years: Aug–Dec 2024
 role: Product manager intern
 audience: Teens and students who want a healthier relationship with social media.

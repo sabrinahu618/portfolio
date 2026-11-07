@@ -11,6 +11,6 @@
     {% include theme-tags.html themes=pr.themes %}
     <h3 class="card__title"><a href="{{ pr.url | relative_url }}">{{ pr.title }}</a></h3>
     <p class="card__summary">{{ pr.summary }}</p>
-    <p class="card__meta">{{ pr.role }} · {{ pr.years }}</p>
+    <p class="card__meta">{{ pr.role }} · {{ pr.years }}{% if pr.format == "short" %} · <span class="card__short">Short read</span>{% endif %}</p>
   </div>
 </article>
