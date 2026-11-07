@@ -120,13 +120,13 @@ The layered design addresses what the Charles River tests showed: one UVC LED al
 
 {% include figure.html src="/assets/img/solar-cap/kit-uvc.webp" alt="Looking up into the UVC layer held in a hand: the UVC LED glows at the center, with the electronics visible through the openings and blue light filling the ring around it." width="900" height="900" caption="Looking into the UVC layer: the LED at the center, and the ring light glowing around it." narrow=true %}
 
+{% include video.html id="Ddm0hCcHDqw" title="Video: the Solar Cap stackable emergency kit and how it works" caption="A short video I made showing the new design and how it works." %}
+
 ### Where it ended up
 
 I transitioned the product to the **Bosai Plus** disaster-relief marketplace.
 
-{% include video.html id="Ddm0hCcHDqw" title="Solar Cap: what the project became" caption="A video I made about what Solar Cap eventually became." %}
-
-{% include todo.html note="Tell me what the video shows and what moving to Bosai Plus meant in practice (listed for sale, piloted, or licensed?), and I'll write this section properly." %}
+{% include todo.html note="What did moving to Bosai Plus mean in practice: listed for sale, piloted, or licensed? One sentence is enough." %}
 
 ## Outcome
 
