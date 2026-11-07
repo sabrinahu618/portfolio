@@ -136,6 +136,6 @@ I transitioned the product to the **Bosai Plus** disaster-relief marketplace.
 
 ## Reflection
 
-{% include todo.html note="Draft in your own words. Suggested angle: what this taught you about designing for people in crisis, and how you'd involve those people earlier now that you've done user research professionally." %}
+Solar Cap is my longest-running project, and it changed shape more than anything else I've worked on: from a bottle cap in high school, to a team-built prototype at D-Lab, to a stackable emergency kit at the Urban Risk Lab. Each version taught me something the last one couldn't.
 
-Solar Cap taught me to love iterating, failing on the bench and trying again. At MIT it taught me something harder: a result that works in one setting can fail in another, and an honest test is worth more than a good demo. Looking back, I also designed it mostly from the lab outward. Today I'd start with the people who would use it.
+It taught me to iterate: fail on the bench, test honestly, and try again, even when a result like the Charles River test meant rethinking the whole design. It taught me to prototype quickly and let what I learned shape the next version. And over time, it taught me to design for the people who would actually use it. In high school, I mostly asked whether it worked. By the end, I was asking harder, more practical questions: who could afford it, and what would they realistically need for it to be useful in an emergency? Those questions changed how I've approached every project since.
