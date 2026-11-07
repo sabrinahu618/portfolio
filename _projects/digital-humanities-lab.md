@@ -42,6 +42,14 @@ Our team built for the ministry's Scholar Support Office, which runs the initiat
 
 I started by interviewing **16 exiled scientists living in 15 countries** about what they needed after war and displacement. Then I designed the platform's screens: a home page and mission, news and events, a directory of scholars and organizations with filters, a map of where scholars had settled, member stories, career advice, and a flow for finding a mentor. Our team built the platform in Django and Bootstrap.
 
+The heart of the platform was the two features the ministry asked for: the map and the directory. In both, blue and yellow, the colors of Ukraine's flag, mark scholars who left before and after February 24, 2022, so the ministry could see how the war reshaped the community.
+
+{% include figure-gallery.html src1="/assets/img/dh-lab/map.webp" alt1="Map of Scholars page: a map of Europe with numbered clusters of scholars, blue for those who left before 24 February 2022 and yellow for after, a legend, and filters for field and year of migration." w1="717" h1="1218" src2="/assets/img/dh-lab/directory.webp" alt2="Scholar Directory page: a search bar, filters for location, institution, field, phase, and company, and a list of scholar profiles with name, title, location, and field, each color-coded blue or yellow." w2="435" h2="756" caption="The Map of Scholars and the Scholar Directory, filterable by field, location, institution, and when scholars left." %}
+
+Around them, I designed the pages that make it feel like a community rather than a database: events, news, and members' own stories.
+
+{% include figure-gallery.html src1="/assets/img/dh-lab/home.webp" alt1="Home page: a photo banner, mission statement with a Join the Ukrainian Scientists Network button, goal cards for projects, mentorship, and stories, upcoming events, and sponsors and partners." w1="534" h1="1401" src2="/assets/img/dh-lab/event.webp" alt2="Event page: an event title with venue, time, and registration deadline, an image area, description, registration link, and sidebars for upcoming and past events by month." w2="861" h2="1473" src3="/assets/img/dh-lab/stories.webp" alt3="Exploring the Ukrainian Diaspora page: an introduction, quotes from members in a carousel, and an invitation to share your story." w3="822" h3="1404" caption="The home page, an event page, and a page for members' stories. Placeholder text in the designs." %}
+
 ## Outcome
 
 The platform served **224 scientists**, giving the ministry a way to keep a scattered research community in touch with each other and with Ukraine.
