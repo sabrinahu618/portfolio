@@ -40,9 +40,10 @@ I wanted something that could **clean water and charge a phone** without the gri
 
 ## Who it was for
 
-People in the hours and days after a disaster, when there's no clean water, no power, and no time to learn a complicated device. That meant it had to work with one button, run on sunlight, and use materials people would already have on hand. The same design also serves anyone far from safe water: people in rural areas, hikers, and travelers. Today's alternatives each fall short somewhere: boiling isn't always possible, pathogens can grow resistant to chlorine, and bottled water is expensive and wasteful.
+I grew up in Florida, where hurricane season was part of the calendar. We had hurricane drills at school. Every year, people stocked up on bottled water because the tap water wasn't safe to drink after a storm, and the power could be out for days. Solar Cap started as a question about my own community: what if you didn't have to depend on either?
 
-{% include todo.html note="Add a sentence about what you saw in your own community during hurricanes, or who you talked to. A specific moment makes the 'who' real." %}
+It was for people in the hours and days after a disaster, when there's no clean water, no power, and no time to learn a complicated device. That meant it had to work with one button, run on sunlight, and use materials people would already have on hand. The same design also serves anyone far from safe water: people in rural areas, hikers, and travelers. Today's alternatives each fall short somewhere: boiling isn't always possible, pathogens can grow resistant to chlorine, and bottled water is expensive and wasteful.
+
 
 ## Part 1 · The first prototype, in high school
 
