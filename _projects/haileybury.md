@@ -8,10 +8,14 @@ featured: true
 format: short
 years: Summer 2023
 role: Design & Technology Research Fellow
-audience: 24 international students in two groups, none with a computer science background.
+audience: 24 international students aged 13 to 17, all learning English as a second language, none with any programming experience.
 methods: [Curriculum design, Teaching, Project mentorship]
 tools: [HTML, CSS, GitHub Pages]
-cover_need: A photo of students presenting, or a collage of student site screenshots, shared with permission and without students' names.
+cover: /assets/img/haileybury/student-sites.webp
+cover_width: 1672
+cover_height: 782
+cover_alt: "Six student websites shown as browser windows: an illustration portfolio titled Digital, a Cyberpunk 2077 fan page, a favorite movies page featuring The Shining, a pink romcoms page, an Argentinian culture page with landscape photos, and a social media advice page."
+cover_caption: "A few of the websites my students built and launched in two weeks. Students' names are left out."
 highlights:
   - value: "24 / 24"
     label: students built, launched, and presented a website
@@ -23,12 +27,13 @@ highlights:
 
 ## The problem
 
-Students who've never coded often hear "web development" and think "not for me." I had two weeks to change that for a group of international students, none of whom had a CS background.
+In the summer of 2023, I moved from student to teacher at an international summer school in Hertford, UK, with the freedom to design my own computer science curriculum. It was exciting and nerve-wracking. My students were 13 to 17, spoke English as a second language, and had never programmed before. Many beginners hear "web development" and think "not for me." I had two weeks to change that, with a curriculum that worked across different learning needs and language abilities.
 
 ## How I designed the course
 
-I built the course around three ideas:
+I built a web development and design course around four ideas:
 
+- **Teach code and English together.** Every lesson was designed for students still learning English, so working through the code also reinforced their English skills and understanding.
 - **Make it real on day two.** Students published their sites to a live, shareable link in the second session, so every change they made from then on was something they could show someone.
 - **Teach a little, then build a lot.** Each session paired a short lesson with hands-on practice, and the time for independent work grew as the course went on, with me circulating to help.
 - **Reflect every day.** Students ended most sessions by writing in a coding journal about what they learned and where they got stuck.
@@ -48,6 +53,8 @@ I also advised 30 student projects in the wider Design & Innovation Program and 
 
 ## Outcome
 
-**Every student built, launched, and presented a personal website.**
+**Every student built, launched, and presented a personal website** to the rest of the school.
 
-{% include todo.html note="Optional: a screenshot collage of a few student sites (with permission, and with students' names cropped out)." %}
+## Reflection
+
+Teaching was harder than I expected. It took constant on-the-spot problem-solving and adapting to students who learned at very different paces, often in their second language. It made me much better at explaining complex ideas simply, and watching every student present a site they built from nothing gave me a deep sense of accomplishment.
