@@ -12,7 +12,11 @@ audience: College students who want to spend less time on Instagram and TikTok b
 team: A pre-seed, Snapchat-backed startup team
 methods: [Surveys, Usability testing, Prototyping, Copy and onboarding design]
 tools: [Figma, Google Forms]
-cover_need: A screen from the NOMO prototype, such as the challenge or progress screen.
+cover: /assets/img/nomo/early-prototype.webp
+cover_width: 1600
+cover_height: 1019
+cover_alt: "Three screens from an early NOMO prototype: a profile showing trees planted, a level, daily tasks like spending less than an hour on Instagram, and 16 hours of weekly social media time; a home screen with 2,798 trees planted, Join and Challenge buttons, and team cards; and a team leaderboard over a tree illustration with sections for Top Contributors and Top Destroyers."
+cover_caption: "My earliest NOMO prototype, before research and testing reshaped it."
 links:
   - label: NOMO website
     url: https://yesnomo.com/
@@ -45,7 +49,7 @@ Then I ran usability tests of the prototype with 10 students and reviewed the on
 - **Make joining obvious.** Testers expected "Join Challenge" to show a list of challenges, and didn't think to enter a friend's code. Label it "Join with a code."
 - **Offer solo and shorter challenges,** so people can try NOMO before committing a whole friend group.
 - **Clarify progress and status.** The progress bar confused testers, and "expired" read as "failed."
-- **Soften the accountability.** An early version revealed to the group who broke the challenge. Feedback called for a gentler tone, matching the survey: accountability, without an audience.
+- **Soften the accountability.** An early version revealed to the group who broke the challenge, and my very first prototype even had a "Top Destroyers" leaderboard. Feedback called for a gentler tone, matching the survey: accountability, without an audience.
 
 ## Outcome
 
