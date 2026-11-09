@@ -21,7 +21,9 @@ highlights:
   - value: "16"
     label: scientists interviewed in 15 countries
   - value: "224"
-    label: scientists served by the platform
+    label: scientists served while I worked on it
+  - value: "689"
+    label: scientists on the live platform's map today
 links:
   - label: Ukrainian Science Diaspora site
     url: https://ukrdiaspora.nauka.gov.ua/en/
@@ -52,4 +54,6 @@ Around them, I designed the pages that make it feel like a community rather than
 
 ## Outcome
 
-The platform served **224 scientists**, giving the ministry a way to keep a scattered research community in touch with each other and with Ukraine.
+The platform served **224 scientists** while I worked on it, giving the ministry a way to keep a scattered research community in touch with each other and with Ukraine.
+
+It's still running. The live Ukrainian Science Diaspora platform keeps the core sections I designed, including the Map of Scholars, Network, Resources, News and Events, Stories, and Mentorship, and **689 scientists** have now joined its map.

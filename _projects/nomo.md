@@ -51,4 +51,6 @@ Then I ran usability tests of the prototype with 10 students and reviewed the on
 
 In prototype tests, the new rewards and streak mechanics lifted **click-through by 22%** and **retention by 16%**.
 
+NOMO has since launched. Today, people earn "Moments" for scrolling less and trade them for rewards like sports and concert tickets, merch, and cash back, which echoes the survey, where event tickets were students' second-favorite reward. They can also challenge friends, or bump phones with someone in person to lock social media for 30 or 60 minutes.
+
 The project left me with a question I'm still thinking about. NOMO uses the same tools as the apps it competes with, like streaks, rewards, and social pressure, to pull people away from them. Students told us they wanted accountability but not exposure. Where is the line between a nudge that supports someone and one that just keeps them hooked?
