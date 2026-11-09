@@ -416,7 +416,9 @@ main:focus { outline: none; }
 .bars__row:hover, .bars__row:focus-visible { background: var(--sand); }
 .bars__label { font-size: var(--step--1); color: var(--ink); line-height: 1.3; }
 .bars__track { display: flex; align-items: center; gap: .5rem; min-width: 0; }
-.bars__bar { display: block; height: 1.1rem; width: calc(var(--v) / 12 * 85%); min-width: 4px; background: var(--impact); border-radius: 0 4px 4px 0; }
+.bars__bar { display: block; height: 1.1rem; width: calc(var(--v) / var(--max, 12) * 85%); min-width: 4px; background: var(--impact); border-radius: 0 4px 4px 0; }
+.bars--impact .bars__bar { background: var(--impact); }
+.bars--communication .bars__bar { background: var(--communication); }
 .bars__value { font-size: var(--step--1); font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
 .bars__tip {
   position: absolute; right: .35rem; top: 50%; transform: translateY(-50%);
