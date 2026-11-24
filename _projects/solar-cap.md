@@ -1,7 +1,7 @@
 ---
 title: Solar Cap
 org: Solar Capital · MIT D-Lab & Urban Risk Lab
-summary: A solar-powered UVC water purifier that started as a high-school science fair project, became a stackable emergency kit at MIT, and found a home in a disaster-relief marketplace.
+summary: A solar-powered UVC water purifier that started as a high-school science fair project, became StackPlus, a stackable emergency kit, at MIT, and found a home in a disaster-relief marketplace.
 themes: [impact]
 order: 1
 featured: true
@@ -14,8 +14,8 @@ tools: [Arduino, Custom PCB, Resin 3D printing, UVC LEDs, Colilert, Petrifilm, Q
 cover: /assets/img/solar-cap/kit-cover.webp
 cover_width: 1600
 cover_height: 1067
-cover_alt: "The final Solar Cap emergency kit, a stack of dark blue 3D-printed layers with a carry loop on top, a USB-C port, and a glowing blue ring light, sitting next to a glass jar of water."
-cover_caption: "Where it ended up: the stackable emergency kit from MIT's Urban Risk Lab."
+cover_alt: "StackPlus, the final Solar Cap emergency kit, a stack of dark blue 3D-printed layers with a carry loop on top, a USB-C port, and a glowing blue ring light, sitting next to a glass jar of water."
+cover_caption: "Where it ended up: StackPlus, the stackable emergency kit from MIT's Urban Risk Lab."
 highlights:
   - value: "99.46%"
     label: of pathogens eliminated in 4 minutes, in early tests on spring water
@@ -24,6 +24,8 @@ highlights:
   - value: "Top 10"
     label: worldwide, Spellman HV Clean Tech competition
 links:
+  - label: StackPlus video
+    url: https://youtu.be/Ddm0hCcHDqw
   - label: WCTV news story
     url: https://www.wctv.tv/2020/08/09/rickards-high-senior-changes-world-through-a-bottle-cap/
   - label: Tallahassee Democrat
@@ -109,9 +111,9 @@ Then we ran the most rigorous test, a Quanti-Tray that estimates how many bacter
 
 Bringing the cap to the public raised its own questions. I researched the testing standards and regulatory steps needed for public use, and learned from MIT's Technology Licensing Office that MIT couldn't patent the cap, since it didn't own it. Working with a manufacturer would mean an NDA instead, which the BU Law Clinic's free legal services could help with. I also built a relationship with the CLEO Institute, a Florida climate nonprofit.
 
-### At the Urban Risk Lab: a stackable emergency kit
+### At the Urban Risk Lab: StackPlus
 
-At MIT's Urban Risk Lab, Solar Cap grew from a single cap into a **stackable emergency kit**. Instead of relying on one method, it combines three, in layers you screw on and off depending on what you need:
+At MIT's Urban Risk Lab, Solar Cap grew from a single cap into **StackPlus**, a stackable emergency kit. Instead of relying on one method, it combines three, in layers you screw on and off depending on what you need:
 
 {% include solar-cap-layers.html %}
 
@@ -121,7 +123,7 @@ The layered design addresses what the Charles River tests showed: one UVC LED al
 
 {% include figure.html src="/assets/img/solar-cap/kit-uvc.webp" alt="Looking up into the UVC layer held in a hand: the UVC LED glows at the center, with the electronics visible through the openings and blue light filling the ring around it." width="900" height="900" caption="Looking into the UVC layer: the LED at the center, and the ring light glowing around it." narrow=true %}
 
-{% include video.html id="Ddm0hCcHDqw" title="Video: the Solar Cap stackable emergency kit and how it works" caption="A short video I made showing the new design and how it works." %}
+{% include video.html id="Ddm0hCcHDqw" title="Video: StackPlus, the stackable emergency kit, and how it works" caption="A short video I made showing StackPlus and how it works." %}
 
 ### Where it ended up
 
@@ -132,11 +134,11 @@ I transitioned the product to the **Bosai Plus** disaster-relief marketplace.
 ## Outcome
 
 - **In high school:** a working, self-contained prototype that purified spring water in minutes and charged a phone, for about **$44** in parts.
-- **At MIT:** a team-built second version with a custom circuit board and 3D-printed case, honest lab results that showed what the next version needed, and a stackable emergency kit at the Urban Risk Lab that layers chlorine, filtration, and UVC.
+- **At MIT:** a team-built second version with a custom circuit board and 3D-printed case, honest lab results that showed what the next version needed, and StackPlus, a stackable emergency kit, at the Urban Risk Lab that layers chlorine, filtration, and UVC.
 - **Recognition:** Regeneron ISEF 2020 finalist, Spellman HV Clean Tech Top 10 worldwide, MIT IDEAS Social Innovation Challenge finalist, MIT ESG-PKG Social Impact Fellowship, and the USAID Science Champion Award, among others.
 
 ## Reflection
 
-Solar Cap is my longest-running project, and it changed shape more than anything else I've worked on: from a bottle cap in high school, to a team-built prototype at D-Lab, to a stackable emergency kit at the Urban Risk Lab. Each version taught me something the last one couldn't.
+Solar Cap is my longest-running project, and it changed shape more than anything else I've worked on: from a bottle cap in high school, to a team-built prototype at D-Lab, to StackPlus, a stackable emergency kit, at the Urban Risk Lab. Each version taught me something the last one couldn't.
 
 It taught me to iterate: fail on the bench, test honestly, and try again, even when a result like the Charles River test meant rethinking the whole design. It taught me to prototype quickly and let what I learned shape the next version. And over time, it taught me to design for the people who would actually use it. In high school, I mostly asked whether it worked. By the end, I was asking harder, more practical questions: who could afford it, and what would they realistically need for it to be useful in an emergency? Those questions changed how I've approached every project since.
