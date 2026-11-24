@@ -15,7 +15,7 @@ baseurl: "/portfolio"
 
 # While drafting, show highlighted "to do" notes and image placeholders.
 # Set to false before you submit so any leftovers are hidden.
-show_placeholders: true
+show_placeholders: false
 
 markdown: kramdown
 kramdown:
