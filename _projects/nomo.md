@@ -1,5 +1,5 @@
 ---
-title: Teens, phones, and the pull of the feed
+title: Making screen time more intentional
 org: NOMO
 summary: Surveying 109 students about their social media habits, then designing and testing a group challenge app that helps friends cut back together.
 themes: [impact, communication]
