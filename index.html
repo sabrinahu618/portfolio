@@ -6,7 +6,9 @@ body_class: home
 {%- assign p = site.data.profile -%}
 <section class="wrap hero" aria-labelledby="hero-title">
   <div class="hero__text">
+    {%- if p.roles and p.roles != "" %}
     <p class="kicker">{{ p.roles }}</p>
+    {%- endif %}
     <h1 id="hero-title"><span class="hero__hi">Hi, I'm Sabrina.</span> I build technology that helps people
       <mark class="ink ink--learning">learn</mark>,
       <mark class="ink ink--communication">communicate</mark>, and

@@ -16,7 +16,8 @@ about_photo: /assets/img/about/london.webp
 about_photo_alt: Sabrina smiling on the edge of a fountain in London, with a red double-decker bus and Big Ben behind her.
 
 # Homepage introduction ------------------------------------------
-roles: Designer · Researcher · Educator
+# Optional small line above the homepage headline. Leave empty to hide it.
+roles: ""
 intro: >-
   I studied Computer Science and Media Studies at MIT, then spent the past
   year shipping AI products as a product manager at companies from a

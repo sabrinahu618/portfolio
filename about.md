@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 kicker: About
 heading: I design for the people on the other side of the screen.
-lede: I'm Sabrina, a designer, researcher, and educator building human-centered technology for learning, communication, and social impact.
+lede: I'm Sabrina. I build human-centered technology for learning, communication, and social impact.
 description: Sabrina Hu's story across education, design, and AI for social impact.
 body_class: about
 ---
