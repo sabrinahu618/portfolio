@@ -66,7 +66,7 @@ I'm still figuring out where these questions will lead me. I'd love to keep expe
 
 ## Beyond the work
 
-Outside of work, you can usually find me looking for a good scoop of honey lavender ice cream, strumming my ukulele, trying a new matcha spot, or going down an internet rabbit hole. I also enjoy a good hike and occasionally catch myself dramatically staring off into space.
+Outside of work, you can usually find me learning how to figure skate, strumming my ukulele, or trying to bake the world's greatest banana bread.
 
 I'm currently based in {{ site.data.profile.location }}.
 
