@@ -1,5 +1,5 @@
 ---
-title: A reader that meets every student where they are
+title: A reader that meets students where they are
 org: iCivics
 summary: Interviewing teachers about why PDF readings fell short in their classrooms, and designing a digital reader concept that adapts to each student.
 themes: [learning, impact]
