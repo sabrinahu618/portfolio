@@ -20,7 +20,7 @@ My first invention was a solar-powered water purifier I built in high school to 
 
 That project, [Solar Cap]({{ '/work/solar-cap/' | relative_url }}), eventually followed me to MIT, where it grew into a team effort across D-Lab and the Urban Risk Lab. It was my first experience seeing how engineering, design, and an understanding of people's needs could come together to address a real problem.
 
-## How do people learn?
+## Understanding how we learn
 
 At MIT, I studied **Media Studies and Computer Science** (Course 21E). I was interested in both how technology works and how people make sense of it. I didn't want to choose between understanding people and building for them.
 
@@ -30,7 +30,7 @@ At [iCivics]({{ '/work/icivics/' | relative_url }}), I approached learning from 
 
 These experiences made me curious about more than how we teach technical skills. I started thinking about how the tools we build shape what people are able to understand, explore, and create for themselves.
 
-## How do we stay connected?
+## Designing for connection
 
 I've also spent time exploring the role technology plays in bringing people together.
 
@@ -38,7 +38,7 @@ At the [MIT Digital Humanities Lab]({{ '/work/digital-humanities-lab/' | relativ
 
 At [NOMO]({{ '/work/nomo/' | relative_url }}), I explored a different side of connection: our relationship with social media. I surveyed 109 students about their social media habits, attention, and wellbeing. I became interested in a question that still sticks with me: how might we design technology that helps people connect without demanding more and more of their attention?
 
-## What happens when AI becomes part of the interaction?
+## Building alongside AI
 
 After graduating, I joined the tech industry as a product manager. At [Samsara]({{ '/work/samsara/' | relative_url }}), I led the development of a messaging platform used by around 800,000 drivers and built an evaluation framework for an AI assistant. At [Nooks]({{ '/work/nooks/' | relative_url }}), I worked on AI-powered workflows and helped define an autonomous agent, including when it should act independently and when it should hand control back to a person.
 
@@ -46,7 +46,7 @@ Working on these products gave me a different perspective on the questions I'd b
 
 I don't think these questions have straightforward answers, and that's part of what makes them exciting to me.
 
-## Questions I'm exploring
+## Questions I'm still exploring
 
 I'm particularly interested in a few directions:
 
