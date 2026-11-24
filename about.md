@@ -2,9 +2,9 @@
 title: About
 permalink: /about/
 kicker: About
-heading: I design for the people on the other side of the screen.
-lede: I'm Sabrina. I build human-centered technology for learning, communication, and social impact.
-description: Sabrina Hu's story across education, design, and AI for social impact.
+heading: I'm curious about what happens when people and technology meet.
+lede: I'm Sabrina. I like asking questions, making things, and figuring out how they might make someone's life a little better.
+description: Sabrina Hu's story across education, research, and building technology, and the questions she wants to explore next.
 body_class: about
 ---
 
@@ -12,33 +12,51 @@ body_class: about
   <img src="{{ '/assets/img/about/candid.webp' | relative_url }}" alt="Sabrina sitting at an outdoor table in a park on a sunny spring day, smiling at the camera." width="720" height="864" loading="lazy">
 </figure>
 
+I've explored this through computer science, education, research, and product development. Lately, I've been thinking a lot about AI: not just what we can build with it, but how it might change the way we learn, think, and connect with one another.
+
 ## It started with a bottle cap
 
-My love for technology and problem-solving took off with my first invention: a solar-powered cap that purifies water with UVC light, built to help my community in Florida during hurricanes. I spent that year designing, building, testing, failing, and trying again, and I became enamored with turning an idea into something that helps someone. That project, [Solar Cap]({{ '/work/solar-cap/' | relative_url }}), followed me to MIT, where it grew into a team effort across D-Lab and the Urban Risk Lab.
+My first invention was a solar-powered water purifier I built in high school to help my community during Florida's hurricanes. I spent a year designing, building, testing, failing, and trying again. I loved the process of taking an idea that existed only in my head and figuring out how to make it work in the real world.
 
-## Learning how people learn
+That project, [Solar Cap]({{ '/work/solar-cap/' | relative_url }}), eventually followed me to MIT, where it grew into a team effort across D-Lab and the Urban Risk Lab. It was my first experience seeing how engineering, design, and an understanding of people's needs could come together to address a real problem.
 
-At MIT I studied **Media Studies and Computer Science** (Course 21E), because I didn't want to choose between understanding people and building for them. Classes like *Learning, Media & Technology* and *Imagination, Computation & Expression* sat next to *Artificial Intelligence* and *Human-Centered Design*, and the overlap became my home.
+## How do people learn?
 
-Teaching made it concrete. I tutored about 500 beginners in MIT's intro Python courses. At [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK, I designed and taught a two-week web development course for 24 students who had never coded, and every one of them launched a website. I also studied learning from the research side at [iCivics]({{ '/work/icivics/' | relative_url }}), interviewing stakeholders about why PDF-based classroom readings shut some students out.
+At MIT, I studied **Media Studies and Computer Science** (Course 21E). I was interested in both how technology works and how people make sense of it. I didn't want to choose between understanding people and building for them.
 
-## Designing for connection
+I got to explore that intersection in the classroom, too. I tutored around 500 students in MIT's introductory Python courses and designed a two-week web development course for 24 students at [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK. None of them had coded before, and by the end, every student had built and launched a website.
 
-My research keeps coming back to how people stay connected. At the [MIT Digital Humanities Lab]({{ '/work/digital-humanities-lab/' | relative_url }}), I interviewed 16 Ukrainian scientists living in exile across 15 countries, then helped build a platform that served 224 of them. At [NOMO]({{ '/work/nomo/' | relative_url }}), I surveyed more than 110 students about their relationship with social media, which raised questions about attention and wellbeing I'm still thinking about.
+At [iCivics]({{ '/work/icivics/' | relative_url }}), I approached learning from a research perspective, interviewing educators and other stakeholders to understand why PDF-based classroom readings created barriers for some students.
 
-## Shipping AI that people can trust
+These experiences made me curious about more than how we teach technical skills. I started thinking about how the tools we build shape what people are able to understand, explore, and create for themselves.
 
-After graduating, I became a product manager. At [Samsara]({{ '/work/samsara/' | relative_url }}) I led a messaging platform for 800,000 drivers and built the framework we used to judge whether an AI assistant's answers were good enough to ship. At [Nooks]({{ '/work/nooks/' | relative_url }}) I defined an autonomous AI agent, including when it should step back and hand off to a person. That work taught me that the hardest questions in AI aren't about the model. They're about the people on the other side of it.
+## How do we stay connected?
 
-## What I want to explore next
+I've also spent time exploring the role technology plays in bringing people together.
 
-{% include todo.html note="This section is my draft of the questions your work points toward. Rewrite it in your own voice; faculty will read it closely." %}
+At the [MIT Digital Humanities Lab]({{ '/work/digital-humanities-lab/' | relative_url }}), I interviewed 16 Ukrainian scientists living in exile across 15 countries. I learned about the challenges of maintaining research collaborations and a sense of community while displaced. Those conversations helped inform a platform that eventually served 224 researchers.
 
-- **When should AI step back?** Good teachers know when to let a student struggle. I want to design AI tutors and companions that build people's own abilities instead of replacing them.
-- **How do we measure what AI does to us?** I've built rubrics for whether an AI's answers are good. I want to evaluate AI by its effect on the people using it: their learning, confidence, and relationships.
-- **How can technology hold communities together?** From exiled scientists to drivers on the road, I've seen how much depends on the right channel at the right moment.
+At [NOMO]({{ '/work/nomo/' | relative_url }}), I explored a different side of connection: our relationship with social media. I surveyed 109 students about their social media habits, attention, and wellbeing. I became interested in a question that still sticks with me: how might we design technology that helps people connect without demanding more and more of their attention?
 
-## A timeline
+## What happens when AI becomes part of the interaction?
+
+After graduating, I joined the tech industry as a product manager. At [Samsara]({{ '/work/samsara/' | relative_url }}), I led the development of a messaging platform used by around 800,000 drivers and built an evaluation framework for an AI assistant. At [Nooks]({{ '/work/nooks/' | relative_url }}), I worked on AI-powered workflows and helped define an autonomous agent, including when it should act independently and when it should hand control back to a person.
+
+Working on these products gave me a different perspective on the questions I'd been exploring in school and research. I became fascinated by the boundary between human and machine capabilities. When should an AI take initiative? When should it ask for help? How do we design systems that make people more capable rather than more dependent?
+
+I don't think these questions have straightforward answers, and that's part of what makes them exciting to me.
+
+## Questions I'm exploring
+
+I'm particularly interested in a few directions:
+
+- **AI that helps us learn, rather than learns for us.** What would it look like to build AI tutors and companions that know when to guide, when to challenge, and when to step back? I'm interested in systems that help people develop their own understanding and capabilities rather than simply providing answers.
+- **Measuring AI's impact on people.** We've gotten increasingly good at evaluating whether AI systems produce accurate answers. But how do we evaluate whether they actually help people? I'd love to explore ways to measure their effects on learning, confidence, independence, and relationships.
+- **Technology that brings people together.** From researchers living in exile to students navigating social media, my projects have repeatedly brought me back to questions of connection and community. I'm curious about what new forms of connection become possible as our interactions with technology change.
+
+I'm still figuring out where these questions will lead me. I'd love to keep experimenting, working across disciplines, and building things that help us better understand ourselves and one another.
+
+## A little timeline
 
 <ol class="timeline">
 {%- for t in site.data.timeline %}
@@ -48,6 +66,8 @@ After graduating, I became a product manager. At [Samsara]({{ '/work/samsara/' |
 
 ## Beyond the work
 
-You can spot me in the wild eating honey lavender ice cream, strumming my ukulele, sipping hot matcha, or dramatically staring off into space. I'm based in {{ site.data.profile.location }}.
+Outside of work, you can usually find me looking for a good scoop of honey lavender ice cream, strumming my ukulele, trying a new matcha spot, or going down an internet rabbit hole. I also enjoy a good hike and occasionally catch myself dramatically staring off into space.
+
+I'm currently based in {{ site.data.profile.location }}.
 
 {% include contact-links.html %}
