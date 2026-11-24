@@ -14,7 +14,7 @@ body_class: about
 
 Lately, I've been thinking a lot about AI: not just what we can build with it, but how it might change those relationships.
 
-## It started with a bottle cap
+## Learning by making
 
 My first invention was a solar-powered water purifier I built in high school to help my community during Florida's hurricanes. I spent a year designing, building, testing, failing, and trying again. I loved the process of taking an idea that existed only in my head and figuring out how to make it work in the real world.
 
