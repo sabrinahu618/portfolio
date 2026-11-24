@@ -23,8 +23,18 @@
   year: 2022
   kind: Research
   line: Prototyped a transformable bag for Hussein Chalayan with 3D-printed self-assembling beads.
+- title: Safety Alert
+  year: 2022
+  kind: Embedded systems
+  line: A personal safety device with a siren, flashing lights, a fake phone call, and an alert that shares your location.
+  url: https://www.youtube.com/watch?v=PvWO8aeOt7o
 - title: ThermoDesk
   year: 2020
   kind: Engineering
   line: A lap desk that turns a laptop's waste heat into electricity with Peltier tiles.
   url: https://docs.google.com/presentation/d/1WdMXBlV4R9HcZREURxEcLxtFyGxORO5dVTozTQBKQhU/edit?usp=sharing
+- title: Going Zero Waste
+  year: ""   # TODO: add year
+  kind: Documentary
+  line: My sister's journey into zero waste, and what she learned along the way.
+  url: https://youtu.be/9ykDA1IlR9U
