@@ -2,8 +2,8 @@
 title: About
 permalink: /about/
 kicker: About
-heading: I'm curious about what happens when people and technology meet.
-lede: I'm Sabrina. I like asking questions, making things, and figuring out how they might make someone's life a little better.
+heading: I'm interested in how technology changes the way we think, learn, and relate to each other.
+lede: I'm Sabrina. My work has taken me from disaster-relief engineering to education research to AI product development. Across these different projects, I've found myself returning to questions about the relationship between people and the systems they use.
 description: Sabrina Hu's story across education, research, and building technology, and the questions she wants to explore next.
 body_class: about
 ---
@@ -12,7 +12,7 @@ body_class: about
   <img src="{{ '/assets/img/about/candid.webp' | relative_url }}" alt="Sabrina sitting at an outdoor table in a park on a sunny spring day, smiling at the camera." width="720" height="864" loading="lazy">
 </figure>
 
-I've explored this through computer science, education, research, and product development. Lately, I've been thinking a lot about AI: not just what we can build with it, but how it might change the way we learn, think, and connect with one another.
+Lately, I've been thinking a lot about AI: not just what we can build with it, but how it might change those relationships.
 
 ## It started with a bottle cap
 
