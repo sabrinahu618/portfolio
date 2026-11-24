@@ -24,7 +24,7 @@ That project, [Solar Cap]({{ '/work/solar-cap/' | relative_url }}), eventually f
 
 At MIT, I studied **Media Studies and Computer Science** (Course 21E). I was interested in both how technology works and how people make sense of it. I didn't want to choose between understanding people and building for them.
 
-I got to explore that intersection in the classroom, too. I tutored around 500 students in MIT's introductory Python courses and designed a two-week web development course for 24 students at [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK. None of them had coded before, and by the end, every student had built and launched a website.
+I got to explore that intersection in the classroom, too. I tutored students in MIT's intro Python courses and designed a two-week web development course for 24 students at [Haileybury]({{ '/work/haileybury/' | relative_url }}) in the UK. None of them had coded before, and by the end, every student had built and launched a website.
 
 At [iCivics]({{ '/work/icivics/' | relative_url }}), I approached learning from a research perspective, interviewing educators and other stakeholders to understand why PDF-based classroom readings created barriers for some students.
 
