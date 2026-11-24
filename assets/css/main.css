@@ -250,6 +250,7 @@ main:focus { outline: none; }
   display: inline-flex; align-items: center; gap: .35rem;
   font-size: .78rem; font-weight: 700; letter-spacing: .03em;
   padding: .15rem .6rem .15rem .5rem; border-radius: 999px;
+  --c: var(--ink); --t: var(--sand);
   color: var(--c); background: var(--t);
 }
 .theme-tag::before { content: ""; width: .5rem; height: .5rem; border-radius: 50%; background: currentColor; }

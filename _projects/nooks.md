@@ -2,7 +2,7 @@
 title: Automation that's easy to build, and safe to trust
 org: Nooks
 summary: Turning a confusing, low-adoption workflow product into an AI-assisted experience sales teams could actually use, then defining an autonomous inbound agent that knows when to bring in a human.
-themes: [communication]
+themes: [ai, human-ai]
 order: 3
 featured: true
 years: May – Oct 2026

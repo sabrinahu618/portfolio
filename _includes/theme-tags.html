@@ -2,6 +2,6 @@
 <ul class="theme-tags" aria-label="Themes">
   {%- for id in include.themes -%}
   {%- assign t = site.data.themes | where: "id", id | first -%}
-  <li class="theme-tag theme-tag--{{ id }}">{{ t.name }}</li>
+  <li class="theme-tag theme-tag--{{ id }}">{{ t.tag | default: t.name }}</li>
   {%- endfor -%}
 </ul>

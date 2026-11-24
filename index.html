@@ -25,7 +25,8 @@ body_class: home
   <div class="wrap">
     <h2 id="threads-title" class="section-title">Three threads through my work</h2>
     <ol class="threads__list">
-      {%- for t in site.data.themes -%}
+      {%- assign threads = site.data.themes | where: "thread", true -%}
+      {%- for t in threads -%}
       <li class="thread thread--{{ t.id }}">
         <span class="thread__knot" aria-hidden="true"></span>
         <h3>{{ t.name }}</h3>
