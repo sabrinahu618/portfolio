@@ -16,6 +16,7 @@ description: Case studies in human-centered design, research, teaching, and AI p
   {%- assign short = projects | where: "format", "short" -%}
   <section aria-labelledby="case-studies-title">
     <h2 id="case-studies-title" class="section-title">Case studies</h2>
+    <p class="archive__intro">In-depth stories from research to launch.</p>
     <div class="card-grid">
       {%- for pr in deep -%}
         {% include project-card.html project=pr %}
