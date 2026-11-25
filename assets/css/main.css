@@ -280,7 +280,8 @@ main:focus { outline: none; }
 
 /* ---------- Generic pages ---------- */
 .page { padding-block: clamp(2rem, 5vw, 4rem) clamp(3rem, 7vw, 5rem); }
-.page__header { margin-bottom: clamp(2rem, 5vw, 3.5rem); max-width: 50rem; }
+.page__header { margin-bottom: clamp(2rem, 5vw, 3.5rem); }
+.page__header .lede { max-width: none; }
 .prose { max-width: var(--measure); }
 .prose h2 { margin-top: 2.2em; font-size: var(--step-2); }
 .prose h3 { margin-top: 1.8em; font-family: var(--sans); font-size: var(--step-0); font-weight: 700; letter-spacing: .01em; color: var(--accent-deep); }
@@ -292,8 +293,6 @@ main:focus { outline: none; }
 .prose strong { font-weight: 700; }
 
 /* About */
-.about .page__header { max-width: none; }
-.about .page__header .lede { max-width: none; }
 .about .prose { max-width: none; display: grid; grid-template-columns: minmax(0, var(--measure)) minmax(0, 1fr); column-gap: clamp(2rem, 5vw, 4rem); }
 .about .prose > * { grid-column: 1; }
 .about .prose > .about__photo { grid-column: 2; grid-row: 1 / span 6; align-self: start; position: sticky; top: 2rem; margin: 0; }
