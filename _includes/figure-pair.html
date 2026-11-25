@@ -1,0 +1,11 @@
+{%- comment -%}
+  Two images side by side (stacks on small phones). Best for two phone screenshots of the same size.
+  {% include figure-pair.html src1="/assets/img/a.webp" alt1="..." src2="/assets/img/b.webp" alt2="..." width="701" height="928" caption="..." %}
+{%- endcomment -%}
+<figure class="figure figure--pair">
+  <div class="figure__pair">
+    <a class="figure__zoom" href="{{ include.src1 | relative_url }}" title="Open full-size image"><img src="{{ include.src1 | relative_url }}" alt="{{ include.alt1 }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async"></a>
+    <a class="figure__zoom" href="{{ include.src2 | relative_url }}" title="Open full-size image"><img src="{{ include.src2 | relative_url }}" alt="{{ include.alt2 }}" width="{{ include.width }}" height="{{ include.height }}" loading="lazy" decoding="async"></a>
+  </div>
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

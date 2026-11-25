@@ -1,0 +1,15 @@
+{%- comment -%}
+  Two or three images in a row, each keeping its own shape (stacks on phones).
+  Pass src1/alt1/w1/h1, src2/alt2/w2/h2, and optionally src3/alt3/w3/h3.
+  {% include figure-gallery.html src1="..." alt1="..." w1="700" h1="1200" src2="..." alt2="..." w2="430" h2="750" caption="..." %}
+{%- endcomment -%}
+<figure class="figure figure--gallery">
+  <div class="figure__gallery{% if include.src3 %} figure__gallery--3{% endif %}">
+    <a class="figure__zoom" href="{{ include.src1 | relative_url }}" title="Open full-size image"><img src="{{ include.src1 | relative_url }}" alt="{{ include.alt1 }}" width="{{ include.w1 }}" height="{{ include.h1 }}" loading="lazy" decoding="async"></a>
+    <a class="figure__zoom" href="{{ include.src2 | relative_url }}" title="Open full-size image"><img src="{{ include.src2 | relative_url }}" alt="{{ include.alt2 }}" width="{{ include.w2 }}" height="{{ include.h2 }}" loading="lazy" decoding="async"></a>
+    {%- if include.src3 %}
+    <a class="figure__zoom" href="{{ include.src3 | relative_url }}" title="Open full-size image"><img src="{{ include.src3 | relative_url }}" alt="{{ include.alt3 }}" width="{{ include.w3 }}" height="{{ include.h3 }}" loading="lazy" decoding="async"></a>
+    {%- endif %}
+  </div>
+  {%- if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

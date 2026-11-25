@@ -1,0 +1,8 @@
+{%- comment -%}
+  A note to yourself while drafting. Hidden everywhere once
+  show_placeholders is false in _config.yml.
+  Usage: {% include todo.html note="Add the number of students who finished." %}
+{%- endcomment -%}
+{%- if site.show_placeholders -%}
+<aside class="todo" role="note"><strong>To do:</strong> {{ include.note }}</aside>
+{%- endif -%}

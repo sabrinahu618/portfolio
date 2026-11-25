@@ -1,0 +1,25 @@
+<figure class="flow">
+  <div class="flow__band flow__band--plays">
+    <p class="flow__label">Already in Plays</p>
+    <ol class="flow__steps">
+      <li class="flow__node"><strong>Trigger</strong><span>An event fires, such as a new inbound lead</span></li>
+      <li class="flow__node"><strong>Added to a sequence</strong><span>Assigned to an SDR to work</span></li>
+      <li class="flow__node"><strong>Sequence runs automatically</strong><span>Scheduled emails and follow-ups</span></li>
+      <li class="flow__node flow__node--decision"><strong>Does the prospect reply?</strong><span><span aria-hidden="true">↻</span> No: the sequence keeps going</span></li>
+      <li class="flow__node"><span class="flow__edge-label">Yes</span><strong>Prospect leaves the sequence</strong><span>A reply stops automated follow-ups</span></li>
+    </ol>
+  </div>
+  <p class="flow__connector">If the reply is an email</p>
+  <div class="flow__band flow__band--agent">
+    <p class="flow__label">New: the autonomous agent</p>
+    <ol class="flow__steps">
+      <li class="flow__node flow__node--agent"><strong>Agent reads the email reply</strong><span>And works out how to respond</span></li>
+      <li class="flow__node flow__node--decision"><strong>Is sensitive information involved?</strong></li>
+      <li class="flow__branches">
+        <div class="flow__branch"><span class="flow__branch-label">No</span><div class="flow__node flow__node--agent"><strong>Agent responds on its own</strong></div></div>
+        <div class="flow__branch"><span class="flow__branch-label">Yes</span><div class="flow__node flow__node--human"><strong>Escalate to a person</strong><span>The SDR takes over</span></div></div>
+      </li>
+    </ol>
+  </div>
+  <figcaption>How the inbound agent builds on Plays. The sequence handles outreach until a prospect replies; the agent handles email replies, and hands off to a person whenever sensitive information comes up. Simplified.</figcaption>
+</figure>
